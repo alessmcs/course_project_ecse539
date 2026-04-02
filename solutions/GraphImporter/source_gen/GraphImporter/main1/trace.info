@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:29696030-e23f-4fbc-8b90-668eaa922ed8(GraphImporter.main1)/3493293630460790587">
+    <file name="GraphImporter.java">
+      <node id="3493293630460806131" at="8,29,9,0" concept="0" />
+      <node id="3493293630460806157" at="9,0,10,0" concept="0" />
+      <node id="3493293630460805321" at="8,0,12,0" concept="1" trace="main#()V" />
+      <scope id="3493293630460805324" at="8,29,10,0" />
+      <scope id="3493293630460805321" at="8,0,12,0" />
+      <unit id="3493293630460790587" at="6,0,13,0" name="GraphImporter.main1.GraphImporter" />
+    </file>
+  </root>
+</debug-info>
+
