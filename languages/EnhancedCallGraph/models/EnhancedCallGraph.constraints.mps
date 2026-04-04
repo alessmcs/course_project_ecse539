@@ -13,18 +13,7 @@
     <use id="ad93155d-79b2-4759-b10c-55123e763903" name="jetbrains.mps.lang.messages" version="0" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
-  <imports>
-    <import index="hu6o" ref="r:c796c4a3-2b8c-48ab-8dfa-f48c064ae694(EnhancedCallGraph.structure)" implicit="true" />
-  </imports>
-  <registry>
-    <language id="134c38d4-e3af-4d9e-b069-1c7df0a4005d" name="jetbrains.mps.lang.constraints.rules.skeleton">
-      <concept id="1867733327984720090" name="jetbrains.mps.lang.constraints.rules.skeleton.structure.RulesConstraintsRoot" flags="ng" index="3Oh7Pa">
-        <reference id="1867733327984720094" name="concept" index="3Oh7Pe" />
-      </concept>
-    </language>
-  </registry>
-  <node concept="3Oh7Pa" id="F4CiNenrFe">
-    <ref role="3Oh7Pe" to="hu6o:31UF0LNK0pQ" resolve="EnhancedCallGraph" />
-  </node>
+  <imports />
+  <registry />
 </model>
 
