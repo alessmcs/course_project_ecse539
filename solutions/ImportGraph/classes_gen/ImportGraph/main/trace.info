@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:19e120e2-516c-4719-a965-e2ffc19be2e5(ImportGraph.main)/775922249627465368">
+    <file name="JSONtoECGImporter.java">
+      <node id="775922249627768400" at="8,42,9,19" concept="0" />
+      <node id="775922249627789016" at="9,19,10,23" concept="0" />
+      <node id="775922249627802367" at="10,23,11,0" concept="1" />
+      <node id="775922249627807698" at="11,0,12,74" concept="0" />
+      <node id="775922249627924926" at="12,74,13,62" concept="0" />
+      <node id="775922249628001487" at="13,62,14,0" concept="1" />
+      <node id="775922249628002682" at="14,0,15,0" concept="1" />
+      <node id="775922249627465474" at="8,0,17,0" concept="2" trace="main#([Ljava/lang/String;)V" />
+      <scope id="775922249627465477" at="8,42,15,0">
+        <var name="block" id="775922249627789017" />
+        <var name="blockConcept" id="775922249627924927" />
+        <var name="g" id="775922249627768401" />
+        <var name="graphConcept" id="775922249627807699" />
+      </scope>
+      <scope id="775922249627465474" at="8,0,17,0">
+        <var name="args" id="775922249627508310" />
+      </scope>
+      <unit id="775922249627465368" at="7,0,18,0" name="ImportGraph.main.JSONtoECGImporter" />
+    </file>
+  </root>
+  <root nodeRef="r:19e120e2-516c-4719-a965-e2ffc19be2e5(ImportGraph.main)/775922249629341080">
+    <file name="testImport.java">
+      <node id="775922249629405489" at="7,59,8,72" concept="0" />
+      <node id="775922249629603846" at="8,72,9,0" concept="1" />
+      <node id="775922249629585337" at="9,0,10,0" concept="1" />
+      <node id="775922249629507615" at="10,0,11,0" concept="1" />
+      <node id="775922249629366238" at="7,0,13,0" concept="2" trace="main#([Ljava/lang/String;)V" />
+      <scope id="775922249629366241" at="7,59,11,0">
+        <var name="path" id="775922249629405490" />
+      </scope>
+      <scope id="775922249629366238" at="7,0,13,0">
+        <var name="args" id="775922249629368656" />
+      </scope>
+      <unit id="775922249629341080" at="6,0,14,0" name="ImportGraph.main.testImport" />
+    </file>
+  </root>
+</debug-info>
+

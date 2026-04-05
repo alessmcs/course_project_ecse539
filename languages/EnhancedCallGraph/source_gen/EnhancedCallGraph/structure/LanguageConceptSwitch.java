@@ -10,24 +10,36 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
   public static final int Block = 0;
-  public static final int ControlFlowGraph = 1;
-  public static final int EnhancedCallGraph = 2;
-  public static final int Method = 3;
-  public static final int ObjectOccurrence = 4;
-  public static final int Parameter = 5;
-  public static final int Statement = 6;
-  public static final int SuccessorList = 7;
+  public static final int BlockList = 1;
+  public static final int BlockRef = 2;
+  public static final int ControlFlowGraph = 3;
+  public static final int ControlStructure = 4;
+  public static final int EnhancedCallGraph = 5;
+  public static final int IfStatement = 6;
+  public static final int Interaction = 7;
+  public static final int Invocation = 8;
+  public static final int Loop = 9;
+  public static final int Method = 10;
+  public static final int MethodCall = 11;
+  public static final int Parameter = 12;
+  public static final int ParameterList = 13;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL);
     builder.put(0x307aac0c73c00730L, Block);
+    builder.put(0x307aac0c73c0bca0L, BlockList);
+    builder.put(0xac4a12cce81e454L, BlockRef);
     builder.put(0x307aac0c73c00733L, ControlFlowGraph);
+    builder.put(0xac4a12cce5dbb82L, ControlStructure);
     builder.put(0x307aac0c73c00676L, EnhancedCallGraph);
+    builder.put(0xac4a12cce5dbb76L, IfStatement);
+    builder.put(0xac4a12cce5dbb67L, Interaction);
+    builder.put(0xac4a12cce5dbb29L, Invocation);
+    builder.put(0xac4a12cce5dbb7cL, Loop);
     builder.put(0x307aac0c73c0072eL, Method);
-    builder.put(0x307aac0c73c04435L, ObjectOccurrence);
+    builder.put(0xac4a12cce5dbb6fL, MethodCall);
     builder.put(0x307aac0c73c0442cL, Parameter);
-    builder.put(0x307aac0c73c00736L, Statement);
-    builder.put(0x307aac0c73c0bca0L, SuccessorList);
+    builder.put(0xac4a12cce5dbb9bL, ParameterList);
     myIndex = builder.seal();
   }
 
