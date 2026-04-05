@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="afqf0938rs8ejyypxtcwbn8kntntg56">
-  <files names="BlockRef_Constraints.java:ConstraintsAspectDescriptor.java:ControlFlowGraph_Constraints.java:ControlStructure_Constraints.java:Method_Constraints.java" />
+<product version="3" modelHash="48cmnmhn4acl7zokb6rh79z4m3rnt8r">
+  <files names="BlockRef_Constraints.java:ConstraintsAspectDescriptor.java:ControlFlowGraph_Constraints.java:ControlStructure_Constraints.java:EnhancedCallGraph_Constraints.java:Interaction_Constraints.java" />
 </product>
 

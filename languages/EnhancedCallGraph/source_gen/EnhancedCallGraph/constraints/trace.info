@@ -8,20 +8,99 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="15,0,38,0" name="EnhancedCallGraph.constraints.ConstraintsAspectDescriptor" />
+      <unit at="15,0,40,0" name="EnhancedCallGraph.constraints.ConstraintsAspectDescriptor" />
     </file>
   </root>
-  <root nodeRef="r:e42ad3ae-bd1c-434b-a4bc-0e7cbd077edb(EnhancedCallGraph.constraints)/775922249630786056">
-    <file name="Method_Constraints.java">
-      <node id="775922249630786056" at="11,80,12,43" concept="5" />
-      <node id="775922249630786056" at="16,0,17,0" concept="4" trace="Method$iO" />
-      <node id="775922249630786056" at="11,0,14,0" concept="0" trace="Method_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
-      <scope id="775922249630786056" at="11,80,12,43" />
-      <scope id="775922249630786056" at="11,0,14,0">
-        <var name="initContext" id="775922249630786056" />
+  <root nodeRef="r:e42ad3ae-bd1c-434b-a4bc-0e7cbd077edb(EnhancedCallGraph.constraints)/618433260077870048">
+    <file name="ControlStructure_Constraints.java">
+      <node id="618433260077870048" at="11,90,12,53" concept="5" />
+      <node id="618433260077870048" at="16,0,17,0" concept="4" trace="ControlStructure$gr" />
+      <node id="618433260077870048" at="11,0,14,0" concept="0" trace="ControlStructure_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <scope id="618433260077870048" at="11,90,12,53" />
+      <scope id="618433260077870048" at="11,0,14,0">
+        <var name="initContext" id="618433260077870048" />
       </scope>
-      <unit id="775922249630786056" at="15,0,18,0" name="EnhancedCallGraph.constraints.Method_Constraints$CONCEPTS" />
-      <unit id="775922249630786056" at="10,0,19,0" name="EnhancedCallGraph.constraints.Method_Constraints" />
+      <unit id="618433260077870048" at="15,0,18,0" name="EnhancedCallGraph.constraints.ControlStructure_Constraints$CONCEPTS" />
+      <unit id="618433260077870048" at="10,0,19,0" name="EnhancedCallGraph.constraints.ControlStructure_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:e42ad3ae-bd1c-434b-a4bc-0e7cbd077edb(EnhancedCallGraph.constraints)/618433260079139303">
+    <file name="EnhancedCallGraph_Constraints.java">
+      <node id="618433260079139303" at="24,91,25,54" concept="5" />
+      <node id="618433260079140100" at="25,54,26,26" concept="1" />
+      <node id="618433260079140100" at="30,54,31,60" concept="5" />
+      <node id="618433260079140100" at="38,61,39,129" concept="3" />
+      <node id="618433260079147639" at="42,78,43,122" concept="3" />
+      <node id="618433260079139303" at="50,0,51,0" concept="4" trace="EnhancedCallGraph$bW" />
+      <node id="618433260079139303" at="54,0,55,0" concept="4" trace="entryMethod$61f3" />
+      <node id="618433260079139303" at="55,0,56,0" concept="4" trace="methods$l8cE" />
+      <node id="618433260079140100" at="30,0,33,0" concept="0" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="618433260079139303" at="24,0,28,0" concept="0" trace="EnhancedCallGraph_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="618433260079140100" at="37,0,41,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="618433260079140100" at="41,0,45,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="618433260079140100" at="35,54,45,8" concept="3" />
+      <node id="618433260079140100" at="33,0,47,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="618433260079140100" at="30,54,31,60" />
+      <scope id="618433260079140100" at="38,61,39,129" />
+      <scope id="618433260079140100" at="42,78,43,122" />
+      <scope id="618433260079139303" at="24,91,26,26" />
+      <scope id="618433260079140100" at="30,0,33,0">
+        <var name="container" id="618433260079140100" />
+      </scope>
+      <scope id="618433260079139303" at="24,0,28,0">
+        <var name="initContext" id="618433260079139303" />
+      </scope>
+      <scope id="618433260079140100" at="37,0,41,0" />
+      <scope id="618433260079140100" at="41,0,45,0">
+        <var name="_context" id="618433260079140100" />
+      </scope>
+      <scope id="618433260079140100" at="35,54,45,8" />
+      <scope id="618433260079140100" at="33,0,47,0" />
+      <unit id="618433260079139303" at="49,0,52,0" name="EnhancedCallGraph.constraints.EnhancedCallGraph_Constraints$CONCEPTS" />
+      <unit id="618433260079139303" at="53,0,57,0" name="EnhancedCallGraph.constraints.EnhancedCallGraph_Constraints$LINKS" />
+      <unit id="618433260079140100" at="36,17,45,7" name="EnhancedCallGraph.constraints.EnhancedCallGraph_Constraints$RD1$1" />
+      <unit id="618433260079140100" at="29,0,48,0" name="EnhancedCallGraph.constraints.EnhancedCallGraph_Constraints$RD1" />
+      <unit id="618433260079139303" at="23,0,58,0" name="EnhancedCallGraph.constraints.EnhancedCallGraph_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:e42ad3ae-bd1c-434b-a4bc-0e7cbd077edb(EnhancedCallGraph.constraints)/618433260080674116">
+    <file name="Interaction_Constraints.java">
+      <node id="618433260080674116" at="25,85,26,48" concept="5" />
+      <node id="618433260081394588" at="26,48,27,26" concept="1" />
+      <node id="618433260081394588" at="31,54,32,60" concept="5" />
+      <node id="618433260081394588" at="39,61,40,129" concept="3" />
+      <node id="618433260081400581" at="43,78,44,196" concept="3" />
+      <node id="618433260080674116" at="51,0,52,0" concept="4" trace="Interaction$$P" />
+      <node id="618433260080674116" at="52,0,53,0" concept="4" trace="ControlFlowGraph$lf" />
+      <node id="618433260080674116" at="56,0,57,0" concept="4" trace="originBlock$zItN" />
+      <node id="618433260080674116" at="57,0,58,0" concept="4" trace="blocks$sZ2f" />
+      <node id="618433260081394588" at="31,0,34,0" concept="0" trace="RD1#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="618433260080674116" at="25,0,29,0" concept="0" trace="Interaction_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
+      <node id="618433260081394588" at="38,0,42,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="618433260081394588" at="42,0,46,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="618433260081394588" at="36,54,46,8" concept="3" />
+      <node id="618433260081394588" at="34,0,48,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <scope id="618433260081394588" at="31,54,32,60" />
+      <scope id="618433260081394588" at="39,61,40,129" />
+      <scope id="618433260081394588" at="43,78,44,196" />
+      <scope id="618433260080674116" at="25,85,27,26" />
+      <scope id="618433260081394588" at="31,0,34,0">
+        <var name="container" id="618433260081394588" />
+      </scope>
+      <scope id="618433260080674116" at="25,0,29,0">
+        <var name="initContext" id="618433260080674116" />
+      </scope>
+      <scope id="618433260081394588" at="38,0,42,0" />
+      <scope id="618433260081394588" at="42,0,46,0">
+        <var name="_context" id="618433260081394588" />
+      </scope>
+      <scope id="618433260081394588" at="36,54,46,8" />
+      <scope id="618433260081394588" at="34,0,48,0" />
+      <unit id="618433260080674116" at="50,0,54,0" name="EnhancedCallGraph.constraints.Interaction_Constraints$CONCEPTS" />
+      <unit id="618433260080674116" at="55,0,59,0" name="EnhancedCallGraph.constraints.Interaction_Constraints$LINKS" />
+      <unit id="618433260081394588" at="37,17,46,7" name="EnhancedCallGraph.constraints.Interaction_Constraints$RD1$1" />
+      <unit id="618433260081394588" at="30,0,49,0" name="EnhancedCallGraph.constraints.Interaction_Constraints$RD1" />
+      <unit id="618433260080674116" at="24,0,60,0" name="EnhancedCallGraph.constraints.Interaction_Constraints" />
     </file>
   </root>
   <root nodeRef="r:e42ad3ae-bd1c-434b-a4bc-0e7cbd077edb(EnhancedCallGraph.constraints)/775922249630814867">
@@ -101,19 +180,6 @@
       <unit id="775922249632026699" at="37,17,46,7" name="EnhancedCallGraph.constraints.BlockRef_Constraints$RD1$1" />
       <unit id="775922249632026699" at="30,0,49,0" name="EnhancedCallGraph.constraints.BlockRef_Constraints$RD1" />
       <unit id="775922249632025106" at="24,0,60,0" name="EnhancedCallGraph.constraints.BlockRef_Constraints" />
-    </file>
-  </root>
-  <root nodeRef="r:e42ad3ae-bd1c-434b-a4bc-0e7cbd077edb(EnhancedCallGraph.constraints)/775922249632319866">
-    <file name="ControlStructure_Constraints.java">
-      <node id="775922249632319866" at="11,90,12,53" concept="5" />
-      <node id="775922249632319866" at="16,0,17,0" concept="4" trace="ControlStructure$gr" />
-      <node id="775922249632319866" at="11,0,14,0" concept="0" trace="ControlStructure_Constraints#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptorInitContext;)V" />
-      <scope id="775922249632319866" at="11,90,12,53" />
-      <scope id="775922249632319866" at="11,0,14,0">
-        <var name="initContext" id="775922249632319866" />
-      </scope>
-      <unit id="775922249632319866" at="15,0,18,0" name="EnhancedCallGraph.constraints.ControlStructure_Constraints$CONCEPTS" />
-      <unit id="775922249632319866" at="10,0,19,0" name="EnhancedCallGraph.constraints.ControlStructure_Constraints" />
     </file>
   </root>
 </debug-info>

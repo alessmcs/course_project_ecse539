@@ -73,7 +73,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.IfStatement:
         if (props_IfStatement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByReference(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0xac4a12cce5dbb82L, 0xac4a12cceacfa07L, "originBlock", "", "");
+          cpb.rawPresentation("IfStatement");
           props_IfStatement = cpb.create();
         }
         return props_IfStatement;
@@ -93,7 +93,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Loop:
         if (props_Loop == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByReference(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0xac4a12cce5dbb82L, 0xac4a12cceacfa07L, "originBlock", "", "");
+          cpb.rawPresentation("Loop");
           props_Loop = cpb.create();
         }
         return props_Loop;

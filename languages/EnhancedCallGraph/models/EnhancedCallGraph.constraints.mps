@@ -69,9 +69,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="1M2fIO" id="F4CiNe$a88">
-    <ref role="1M2myG" to="hu6o:31UF0LNK0sI" resolve="Method" />
-  </node>
   <node concept="1M2fIO" id="F4CiNe$haj">
     <ref role="1M2myG" to="hu6o:31UF0LNK0sN" resolve="ControlFlowGraph" />
     <node concept="1N5Pfh" id="F4CiNe_tpG" role="1Mr941">
@@ -125,8 +122,61 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="F4CiNeE0_U">
+  <node concept="1M2fIO" id="yl7so0eAJw">
     <ref role="1M2myG" to="hu6o:F4CiNenrI2" resolve="ControlStructure" />
+  </node>
+  <node concept="1M2fIO" id="yl7so0jsBB">
+    <ref role="1M2myG" to="hu6o:31UF0LNK0pQ" resolve="EnhancedCallGraph" />
+    <node concept="1N5Pfh" id="yl7so0jsO4" role="1Mr941">
+      <ref role="1N5Vy1" to="hu6o:yl7so0cMaf" resolve="entryMethod" />
+      <node concept="3dgokm" id="yl7so0jtqD" role="1N6uqs">
+        <node concept="3clFbS" id="yl7so0jtqE" role="2VODD2">
+          <node concept="3clFbF" id="yl7so0juDR" role="3cqZAp">
+            <node concept="2YIFZM" id="yl7so0jvmp" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="yl7so0jwqg" role="37wK5m">
+                <node concept="3kakTB" id="yl7so0jvNR" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="yl7so0jx7V" role="2OqNvi">
+                  <ref role="3TtcxE" to="hu6o:31UF0LNK0sT" resolve="methods" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="yl7so0pjl4">
+    <ref role="1M2myG" to="hu6o:F4CiNenrHB" resolve="Interaction" />
+    <node concept="1N5Pfh" id="yl7so0s3es" role="1Mr941">
+      <ref role="1N5Vy1" to="hu6o:yl7so0rrJh" resolve="originBlock" />
+      <node concept="3dgokm" id="yl7so0s3PD" role="1N6uqs">
+        <node concept="3clFbS" id="yl7so0s3PE" role="2VODD2">
+          <node concept="3clFbF" id="yl7so0s4G5" role="3cqZAp">
+            <node concept="2YIFZM" id="yl7so0s542" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="yl7so0s7Ys" role="37wK5m">
+                <node concept="2OqwBi" id="yl7so0s64I" role="2Oq$k0">
+                  <node concept="2rP1CM" id="yl7so0s5Se" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="yl7so0s74I" role="2OqNvi">
+                    <node concept="1xMEDy" id="yl7so0s74K" role="1xVPHs">
+                      <node concept="chp4Y" id="yl7so0s7m3" role="ri$Ld">
+                        <ref role="cht4Q" to="hu6o:31UF0LNK0sN" resolve="ControlFlowGraph" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3Tsc0h" id="yl7so0s8en" role="2OqNvi">
+                  <ref role="3TtcxE" to="hu6o:31UF0LNKxKs" resolve="blocks" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

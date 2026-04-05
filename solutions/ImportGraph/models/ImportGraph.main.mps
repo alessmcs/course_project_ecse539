@@ -15,12 +15,10 @@
   <registry>
     <language id="8fec4b91-acc1-4b63-a904-50ec00d1159a" name="EnhancedCallGraph">
       <concept id="3493293630460790390" name="EnhancedCallGraph.structure.EnhancedCallGraph" flags="ng" index="13IEDU">
-        <property id="775922249628425364" name="entryMethod" index="34E3QS" />
         <child id="3493293630460790585" name="methods" index="13IEGP" />
       </concept>
       <concept id="3493293630460790574" name="EnhancedCallGraph.structure.Method" flags="ng" index="13IEGy">
         <property id="3493293630460806185" name="signature" index="13IIw_" />
-        <property id="3493293630460806183" name="isEntry" index="13IIwF" />
         <property id="3493293630460806193" name="returnType" index="13IIwX" />
         <property id="775922249627450273" name="className" index="34AhEd" />
         <child id="3493293630460837426" name="cfg" index="13Ix8Y" />
@@ -28,6 +26,7 @@
       <concept id="3493293630460790576" name="EnhancedCallGraph.structure.Block" flags="ng" index="13IEGW">
         <property id="775922249627450252" name="condition" index="34AhEw" />
         <child id="775922249629837505" name="successors" index="34hCBH" />
+        <child id="775922249627450253" name="invocations" index="34AhEx" />
       </concept>
       <concept id="3493293630460790579" name="EnhancedCallGraph.structure.ControlFlowGraph" flags="ng" index="13IEGZ">
         <reference id="775922249628071342" name="entryBlock" index="34CTi2" />
@@ -37,14 +36,21 @@
       <concept id="775922249629819988" name="EnhancedCallGraph.structure.BlockRef" flags="ng" index="34hklS">
         <reference id="775922249629831533" name="target" index="34hF11" />
       </concept>
+      <concept id="775922249627450153" name="EnhancedCallGraph.structure.Invocation" flags="ng" index="34AhC5">
+        <reference id="775922249630569551" name="targetMethod" index="34ivlz" />
+      </concept>
+      <concept id="775922249627450223" name="EnhancedCallGraph.structure.MethodCall" flags="ng" index="34AhD3">
+        <reference id="618433260079755651" name="targetMethod" index="8KyL5" />
+      </concept>
       <concept id="775922249627450215" name="EnhancedCallGraph.structure.Interaction" flags="ng" index="34AhDb">
+        <reference id="618433260081232849" name="originBlock" index="8Yaon" />
         <child id="775922249627450221" name="successors" index="34AhD1" />
       </concept>
-      <concept id="775922249627450230" name="EnhancedCallGraph.structure.IfStatement" flags="ng" index="34AhDq" />
+      <concept id="775922249627450236" name="EnhancedCallGraph.structure.Loop" flags="ng" index="34AhDg">
+        <child id="775922249627450240" name="backwardJumps" index="34AhEG" />
+      </concept>
       <concept id="775922249627450242" name="EnhancedCallGraph.structure.ControlStructure" flags="ng" index="34AhEI">
         <property id="775922249627450245" name="condition" index="34AhED" />
-        <property id="775922249627450243" name="originBlock" index="34AhEJ" />
-        <reference id="775922249632643591" name="originBlock" index="34q5GF" />
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -194,64 +200,57 @@
     </node>
     <node concept="3Tm1VV" id="F4CiNeuDmp" role="1B3o_S" />
   </node>
-  <node concept="13IEDU" id="F4CiNevOem">
-    <property role="34E3QS" value="m1" />
-    <node concept="13IEGy" id="F4CiNevOen" role="13IEGP">
+  <node concept="13IEDU" id="yl7so0sx1Y">
+    <node concept="13IEGy" id="yl7so0sx1Z" role="13IEGP">
       <property role="TrG5h" value="m1" />
-      <property role="13IIw_" value="&lt;m1 (p1 t1)&gt;" />
+      <property role="13IIw_" value="fdsfs" />
       <property role="13IIwX" value="void" />
-      <property role="34AhEd" value="Main" />
-      <property role="13IIwF" value="true" />
-      <node concept="13IEGZ" id="F4CiNevOeo" role="13Ix8Y">
-        <ref role="34CTi2" node="F4CiNey3jF" resolve="b1" />
-        <node concept="13IEGW" id="F4CiNey3jF" role="13Ib0g">
+      <property role="34AhEd" value="dadsd" />
+      <node concept="13IEGZ" id="yl7so0sx20" role="13Ix8Y">
+        <ref role="34CTi2" node="yl7so0sCqD" resolve="b1" />
+        <node concept="34AhD3" id="yl7so0sJ1$" role="34AhDa">
+          <ref role="8Yaon" node="yl7so0sCqD" resolve="b1" />
+          <ref role="8KyL5" node="yl7so0sK_6" resolve="m2" />
+        </node>
+        <node concept="13IEGW" id="yl7so0sCqD" role="13Ib0g">
           <property role="TrG5h" value="b1" />
           <property role="34AhEw" value="none" />
-          <node concept="34hklS" id="F4CiNeybQX" role="34hCBH">
-            <ref role="34hF11" node="F4CiNeDuUI" resolve="b4" />
-          </node>
-        </node>
-        <node concept="13IEGW" id="F4CiNey6N$" role="13Ib0g">
-          <property role="TrG5h" value="b2" />
-          <property role="34AhEw" value="none" />
-          <node concept="34hklS" id="F4CiNeDFYF" role="34hCBH">
-            <ref role="34hF11" node="F4CiNey3jF" resolve="b1" />
-          </node>
-        </node>
-        <node concept="13IEGW" id="F4CiNeDuUI" role="13Ib0g">
-          <property role="TrG5h" value="b4" />
-          <property role="34AhEw" value="fdfdfd" />
-          <node concept="34hklS" id="F4CiNeDCRE" role="34hCBH">
-            <ref role="34hF11" node="F4CiNey3jF" resolve="b1" />
-          </node>
-        </node>
-        <node concept="34AhDq" id="F4CiNeyHaI" role="34AhDa">
-          <property role="34AhEJ" value="b1" />
-          <property role="34AhED" value="blbla" />
-          <ref role="34q5GF" node="F4CiNey3jF" resolve="b1" />
-          <node concept="34hklS" id="F4CiNezd6Q" role="34AhD1">
-            <ref role="34hF11" node="F4CiNey6N$" resolve="b2" />
-          </node>
         </node>
       </node>
     </node>
-    <node concept="13IEGy" id="F4CiNezQd8" role="13IEGP">
+    <node concept="13IEGy" id="yl7so0sK_6" role="13IEGP">
       <property role="TrG5h" value="m2" />
-      <property role="13IIw_" value="blabla" />
-      <property role="13IIwX" value="void" />
-      <property role="34AhEd" value="c2" />
-      <node concept="13IEGZ" id="F4CiNezQd9" role="13Ix8Y">
-        <ref role="34CTi2" node="F4CiNezYKq" resolve="b1" />
-        <node concept="13IEGW" id="F4CiNezYKq" role="13Ib0g">
+      <property role="13IIw_" value="ere" />
+      <property role="13IIwX" value="erte" />
+      <property role="34AhEd" value="trete" />
+      <node concept="13IEGZ" id="yl7so0sK_7" role="13Ix8Y">
+        <ref role="34CTi2" node="yl7so0sQN8" resolve="b1" />
+        <node concept="13IEGW" id="yl7so0sQN8" role="13Ib0g">
           <property role="TrG5h" value="b1" />
-          <property role="34AhEw" value="none" />
-          <node concept="34hklS" id="F4CiNeDKyZ" role="34hCBH">
-            <ref role="34hF11" node="F4CiNeDIZu" resolve="b2" />
+          <property role="34AhEw" value="fsf" />
+          <node concept="34hklS" id="yl7so0u3Tu" role="34hCBH">
+            <ref role="34hF11" node="yl7so0tqcJ" resolve="b2" />
+          </node>
+          <node concept="34AhC5" id="yl7so0uajW" role="34AhEx">
+            <ref role="34ivlz" node="yl7so0sx1Z" resolve="m1" />
           </node>
         </node>
-        <node concept="13IEGW" id="F4CiNeDIZu" role="13Ib0g">
+        <node concept="13IEGW" id="yl7so0tqcJ" role="13Ib0g">
           <property role="TrG5h" value="b2" />
-          <property role="34AhEw" value="fdsfdsfsd" />
+          <property role="34AhEw" value="fdsfs" />
+          <node concept="34AhC5" id="yl7so0uaTh" role="34AhEx">
+            <ref role="34ivlz" node="yl7so0sx1Z" resolve="m1" />
+          </node>
+        </node>
+        <node concept="34AhDg" id="yl7so0sWfq" role="34AhDa">
+          <property role="34AhED" value="rerer" />
+          <ref role="8Yaon" node="yl7so0sQN8" resolve="b1" />
+          <node concept="34hklS" id="yl7so0tuhW" role="34AhD1">
+            <ref role="34hF11" node="yl7so0tqcJ" resolve="b2" />
+          </node>
+          <node concept="34hklS" id="yl7so0tv3H" role="34AhEG">
+            <ref role="34hF11" node="yl7so0sQN8" resolve="b1" />
+          </node>
         </node>
       </node>
     </node>

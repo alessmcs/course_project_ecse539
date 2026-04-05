@@ -16,7 +16,7 @@
       <unit at="10,0,54,0" name="EnhancedCallGraph.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="15,0,232,0" name="EnhancedCallGraph.structure.StructureAspectDescriptor" />
+      <unit at="15,0,228,0" name="EnhancedCallGraph.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:c796c4a3-2b8c-48ab-8dfa-f48c064ae694(EnhancedCallGraph.structure)/3493293630460790390">
@@ -39,19 +39,19 @@
     <file name="StructureAspectDescriptor.java">
       <node id="3493293630460790390" at="21,0,22,0" concept="1" trace="myConceptEnhancedCallGraph" />
       <node id="3493293630460790390" at="61,51,62,42" concept="4" />
-      <node id="3493293630460790390" at="138,75,139,169" concept="3" />
-      <node id="3493293630460790390" at="139,169,140,33" concept="0" />
-      <node id="3493293630460790390" at="140,33,141,104" concept="0" />
-      <node id="3493293630460790390" at="141,104,142,17" concept="0" />
-      <node id="775922249628425364" at="142,17,143,115" concept="0" />
-      <node id="3493293630460790585" at="143,115,144,200" concept="0" />
-      <node id="3493293630460790390" at="144,200,145,22" concept="4" />
-      <node id="3493293630460790390" at="138,0,147,0" concept="7" trace="createDescriptorForEnhancedCallGraph#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="3493293630460790390" at="137,75,138,169" concept="3" />
+      <node id="3493293630460790390" at="138,169,139,33" concept="0" />
+      <node id="3493293630460790390" at="139,33,140,104" concept="0" />
+      <node id="3493293630460790390" at="140,104,141,17" concept="0" />
+      <node id="618433260077392527" at="141,17,142,172" concept="0" />
+      <node id="3493293630460790585" at="142,172,143,200" concept="0" />
+      <node id="3493293630460790390" at="143,200,144,22" concept="4" />
+      <node id="3493293630460790390" at="137,0,146,0" concept="7" trace="createDescriptorForEnhancedCallGraph#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="3493293630460790390" at="61,51,62,42" />
-      <scope id="3493293630460790390" at="138,75,145,22">
+      <scope id="3493293630460790390" at="137,75,144,22">
         <var name="b" id="3493293630460790390" />
       </scope>
-      <scope id="3493293630460790390" at="138,0,147,0" />
+      <scope id="3493293630460790390" at="137,0,146,0" />
     </file>
   </root>
   <root nodeRef="r:c796c4a3-2b8c-48ab-8dfa-f48c064ae694(EnhancedCallGraph.structure)/3493293630460790574">
@@ -80,20 +80,19 @@
       <node id="3493293630460790574" at="188,71,189,104" concept="0" />
       <node id="3493293630460790574" at="189,104,190,17" concept="0" />
       <node id="3493293630460806183" at="190,17,191,114" concept="0" />
-      <node id="3493293630460806184" at="191,114,192,108" concept="0" />
-      <node id="3493293630460806185" at="192,108,193,115" concept="0" />
-      <node id="775922249627450273" at="193,115,194,113" concept="0" />
-      <node id="775922249627450274" at="194,113,195,114" concept="0" />
-      <node id="3493293630460806193" at="195,114,196,116" concept="0" />
-      <node id="775922249627450276" at="196,116,197,196" concept="0" />
-      <node id="3493293630460837426" at="197,196,198,197" concept="0" />
-      <node id="3493293630460790574" at="198,197,199,22" concept="4" />
-      <node id="3493293630460790574" at="185,0,201,0" concept="7" trace="createDescriptorForMethod#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="3493293630460806185" at="191,114,192,115" concept="0" />
+      <node id="775922249627450273" at="192,115,193,113" concept="0" />
+      <node id="775922249627450274" at="193,113,194,114" concept="0" />
+      <node id="3493293630460806193" at="194,114,195,116" concept="0" />
+      <node id="775922249627450276" at="195,116,196,196" concept="0" />
+      <node id="3493293630460837426" at="196,196,197,197" concept="0" />
+      <node id="3493293630460790574" at="197,197,198,22" concept="4" />
+      <node id="3493293630460790574" at="185,0,200,0" concept="7" trace="createDescriptorForMethod#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="3493293630460790574" at="71,40,72,31" />
-      <scope id="3493293630460790574" at="185,64,199,22">
+      <scope id="3493293630460790574" at="185,64,198,22">
         <var name="b" id="3493293630460790574" />
       </scope>
-      <scope id="3493293630460790574" at="185,0,201,0" />
+      <scope id="3493293630460790574" at="185,0,200,0" />
     </file>
   </root>
   <root nodeRef="r:c796c4a3-2b8c-48ab-8dfa-f48c064ae694(EnhancedCallGraph.structure)/3493293630460790576">
@@ -189,19 +188,19 @@
     <file name="StructureAspectDescriptor.java">
       <node id="3493293630460806188" at="28,0,29,0" concept="1" trace="myConceptParameter" />
       <node id="3493293630460806188" at="75,43,76,34" concept="4" />
-      <node id="3493293630460806188" at="214,67,215,161" concept="3" />
-      <node id="3493293630460806188" at="215,161,216,34" concept="0" />
-      <node id="3493293630460806188" at="216,34,217,71" concept="0" />
-      <node id="3493293630460806188" at="217,71,218,104" concept="0" />
-      <node id="3493293630460806188" at="218,104,219,17" concept="0" />
-      <node id="775922249627450270" at="219,17,220,108" concept="0" />
-      <node id="3493293630460806188" at="220,108,221,22" concept="4" />
-      <node id="3493293630460806188" at="214,0,223,0" concept="7" trace="createDescriptorForParameter#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="3493293630460806188" at="210,67,211,161" concept="3" />
+      <node id="3493293630460806188" at="211,161,212,34" concept="0" />
+      <node id="3493293630460806188" at="212,34,213,71" concept="0" />
+      <node id="3493293630460806188" at="213,71,214,104" concept="0" />
+      <node id="3493293630460806188" at="214,104,215,17" concept="0" />
+      <node id="775922249627450270" at="215,17,216,108" concept="0" />
+      <node id="3493293630460806188" at="216,108,217,22" concept="4" />
+      <node id="3493293630460806188" at="210,0,219,0" concept="7" trace="createDescriptorForParameter#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="3493293630460806188" at="75,43,76,34" />
-      <scope id="3493293630460806188" at="214,67,221,22">
+      <scope id="3493293630460806188" at="210,67,217,22">
         <var name="b" id="3493293630460806188" />
       </scope>
-      <scope id="3493293630460806188" at="214,0,223,0" />
+      <scope id="3493293630460806188" at="210,0,219,0" />
     </file>
   </root>
   <root nodeRef="r:c796c4a3-2b8c-48ab-8dfa-f48c064ae694(EnhancedCallGraph.structure)/3493293630460837024">
@@ -293,19 +292,20 @@
     <file name="StructureAspectDescriptor.java">
       <node id="775922249627450215" at="23,0,24,0" concept="1" trace="myConceptInteraction" />
       <node id="775922249627450215" at="65,45,66,36" concept="4" />
-      <node id="775922249627450215" at="156,69,157,162" concept="3" />
-      <node id="775922249627450215" at="157,162,158,33" concept="0" />
-      <node id="775922249627450215" at="158,33,159,103" concept="0" />
-      <node id="775922249627450215" at="159,103,160,17" concept="0" />
-      <node id="775922249627450219" at="160,17,161,108" concept="0" />
-      <node id="775922249627450221" at="161,108,162,199" concept="0" />
+      <node id="775922249627450215" at="155,69,156,162" concept="3" />
+      <node id="775922249627450215" at="156,162,157,33" concept="0" />
+      <node id="775922249627450215" at="157,33,158,103" concept="0" />
+      <node id="775922249627450215" at="158,103,159,17" concept="0" />
+      <node id="775922249627450219" at="159,17,160,108" concept="0" />
+      <node id="618433260081232849" at="160,108,161,172" concept="0" />
+      <node id="775922249627450221" at="161,172,162,199" concept="0" />
       <node id="775922249627450215" at="162,199,163,22" concept="4" />
-      <node id="775922249627450215" at="156,0,165,0" concept="7" trace="createDescriptorForInteraction#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="775922249627450215" at="155,0,165,0" concept="7" trace="createDescriptorForInteraction#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="775922249627450215" at="65,45,66,36" />
-      <scope id="775922249627450215" at="156,69,163,22">
+      <scope id="775922249627450215" at="155,69,163,22">
         <var name="b" id="775922249627450215" />
       </scope>
-      <scope id="775922249627450215" at="156,0,165,0" />
+      <scope id="775922249627450215" at="155,0,165,0" />
     </file>
   </root>
   <root nodeRef="r:c796c4a3-2b8c-48ab-8dfa-f48c064ae694(EnhancedCallGraph.structure)/775922249627450223">
@@ -328,31 +328,28 @@
     <file name="StructureAspectDescriptor.java">
       <node id="775922249627450223" at="27,0,28,0" concept="1" trace="myConceptMethodCall" />
       <node id="775922249627450223" at="73,44,74,35" concept="4" />
-      <node id="775922249627450223" at="201,68,202,161" concept="3" />
-      <node id="775922249627450223" at="202,161,203,34" concept="0" />
-      <node id="775922249627450223" at="203,34,204,55" concept="5" />
-      <node id="775922249627450223" at="204,55,205,75" concept="0" />
-      <node id="775922249627450223" at="205,75,206,103" concept="0" />
-      <node id="775922249627450223" at="206,103,207,17" concept="0" />
-      <node id="775922249627450225" at="207,17,208,115" concept="0" />
-      <node id="775922249627450226" at="208,115,209,115" concept="0" />
-      <node id="775922249627450227" at="209,115,210,116" concept="0" />
-      <node id="775922249627450228" at="210,116,211,119" concept="0" />
-      <node id="775922249627450223" at="211,119,212,22" concept="4" />
-      <node id="775922249627450223" at="201,0,214,0" concept="7" trace="createDescriptorForMethodCall#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="775922249627450223" at="200,68,201,161" concept="3" />
+      <node id="775922249627450223" at="201,161,202,34" concept="0" />
+      <node id="775922249627450223" at="202,34,203,55" concept="5" />
+      <node id="775922249627450223" at="203,55,204,75" concept="0" />
+      <node id="775922249627450223" at="204,75,205,103" concept="0" />
+      <node id="775922249627450223" at="205,103,206,17" concept="0" />
+      <node id="618433260079755651" at="206,17,207,173" concept="0" />
+      <node id="775922249627450223" at="207,173,208,22" concept="4" />
+      <node id="775922249627450223" at="200,0,210,0" concept="7" trace="createDescriptorForMethodCall#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="775922249627450223" at="73,44,74,35" />
-      <scope id="775922249627450223" at="201,68,212,22">
+      <scope id="775922249627450223" at="200,68,208,22">
         <var name="b" id="775922249627450223" />
       </scope>
-      <scope id="775922249627450223" at="201,0,214,0" />
+      <scope id="775922249627450223" at="200,0,210,0" />
     </file>
   </root>
   <root nodeRef="r:c796c4a3-2b8c-48ab-8dfa-f48c064ae694(EnhancedCallGraph.structure)/775922249627450230">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="775922249627450230" at="18,0,19,0" concept="1" trace="props_IfStatement" />
       <node id="775922249627450230" at="74,40,75,76" concept="3" />
-      <node id="775922249627450230" at="75,76,76,143" concept="0" />
-      <node id="775922249627450230" at="76,143,77,43" concept="0" />
+      <node id="775922249627450230" at="75,76,76,45" concept="0" />
+      <node id="775922249627450230" at="76,45,77,43" concept="0" />
       <node id="775922249627450230" at="78,9,79,33" concept="4" />
       <node id="775922249627450230" at="73,45,78,9" concept="2" />
       <scope id="775922249627450230" at="74,40,77,43">
@@ -367,27 +364,27 @@
     <file name="StructureAspectDescriptor.java">
       <node id="775922249627450230" at="22,0,23,0" concept="1" trace="myConceptIfStatement" />
       <node id="775922249627450230" at="63,45,64,36" concept="4" />
-      <node id="775922249627450230" at="147,69,148,162" concept="3" />
-      <node id="775922249627450230" at="148,162,149,34" concept="0" />
-      <node id="775922249627450230" at="149,34,150,60" concept="5" />
-      <node id="775922249627450230" at="150,60,151,75" concept="0" />
-      <node id="775922249627450230" at="151,75,152,103" concept="0" />
-      <node id="775922249627450230" at="152,103,153,17" concept="0" />
-      <node id="775922249627450230" at="153,17,154,22" concept="4" />
-      <node id="775922249627450230" at="147,0,156,0" concept="7" trace="createDescriptorForIfStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="775922249627450230" at="146,69,147,162" concept="3" />
+      <node id="775922249627450230" at="147,162,148,34" concept="0" />
+      <node id="775922249627450230" at="148,34,149,60" concept="5" />
+      <node id="775922249627450230" at="149,60,150,75" concept="0" />
+      <node id="775922249627450230" at="150,75,151,103" concept="0" />
+      <node id="775922249627450230" at="151,103,152,17" concept="0" />
+      <node id="775922249627450230" at="152,17,153,22" concept="4" />
+      <node id="775922249627450230" at="146,0,155,0" concept="7" trace="createDescriptorForIfStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="775922249627450230" at="63,45,64,36" />
-      <scope id="775922249627450230" at="147,69,154,22">
+      <scope id="775922249627450230" at="146,69,153,22">
         <var name="b" id="775922249627450230" />
       </scope>
-      <scope id="775922249627450230" at="147,0,156,0" />
+      <scope id="775922249627450230" at="146,0,155,0" />
     </file>
   </root>
   <root nodeRef="r:c796c4a3-2b8c-48ab-8dfa-f48c064ae694(EnhancedCallGraph.structure)/775922249627450236">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="775922249627450236" at="21,0,22,0" concept="1" trace="props_Loop" />
       <node id="775922249627450236" at="94,33,95,76" concept="3" />
-      <node id="775922249627450236" at="95,76,96,143" concept="0" />
-      <node id="775922249627450236" at="96,143,97,36" concept="0" />
+      <node id="775922249627450236" at="95,76,96,38" concept="0" />
+      <node id="775922249627450236" at="96,38,97,36" concept="0" />
       <node id="775922249627450236" at="98,9,99,26" concept="4" />
       <node id="775922249627450236" at="93,38,98,9" concept="2" />
       <scope id="775922249627450236" at="94,33,97,36">
@@ -444,14 +441,13 @@
       <node id="775922249627450242" at="131,75,132,103" concept="0" />
       <node id="775922249627450242" at="132,103,133,17" concept="0" />
       <node id="775922249627450245" at="133,17,134,113" concept="0" />
-      <node id="775922249632643591" at="134,113,135,173" concept="0" />
-      <node id="775922249627450242" at="135,173,136,22" concept="4" />
-      <node id="775922249627450242" at="127,0,138,0" concept="7" trace="createDescriptorForControlStructure#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="775922249627450242" at="134,113,135,22" concept="4" />
+      <node id="775922249627450242" at="127,0,137,0" concept="7" trace="createDescriptorForControlStructure#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="775922249627450242" at="59,50,60,41" />
-      <scope id="775922249627450242" at="127,74,136,22">
+      <scope id="775922249627450242" at="127,74,135,22">
         <var name="b" id="775922249627450242" />
       </scope>
-      <scope id="775922249627450242" at="127,0,138,0" />
+      <scope id="775922249627450242" at="127,0,137,0" />
     </file>
   </root>
   <root nodeRef="r:c796c4a3-2b8c-48ab-8dfa-f48c064ae694(EnhancedCallGraph.structure)/775922249627450267">
@@ -474,18 +470,18 @@
     <file name="StructureAspectDescriptor.java">
       <node id="775922249627450267" at="29,0,30,0" concept="1" trace="myConceptParameterList" />
       <node id="775922249627450267" at="77,47,78,38" concept="4" />
-      <node id="775922249627450267" at="223,71,224,164" concept="3" />
-      <node id="775922249627450267" at="224,164,225,34" concept="0" />
-      <node id="775922249627450267" at="225,34,226,103" concept="0" />
-      <node id="775922249627450267" at="226,103,227,17" concept="0" />
-      <node id="775922249627450268" at="227,17,228,201" concept="0" />
-      <node id="775922249627450267" at="228,201,229,22" concept="4" />
-      <node id="775922249627450267" at="223,0,231,0" concept="7" trace="createDescriptorForParameterList#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="775922249627450267" at="219,71,220,164" concept="3" />
+      <node id="775922249627450267" at="220,164,221,34" concept="0" />
+      <node id="775922249627450267" at="221,34,222,103" concept="0" />
+      <node id="775922249627450267" at="222,103,223,17" concept="0" />
+      <node id="775922249627450268" at="223,17,224,201" concept="0" />
+      <node id="775922249627450267" at="224,201,225,22" concept="4" />
+      <node id="775922249627450267" at="219,0,227,0" concept="7" trace="createDescriptorForParameterList#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="775922249627450267" at="77,47,78,38" />
-      <scope id="775922249627450267" at="223,71,229,22">
+      <scope id="775922249627450267" at="219,71,225,22">
         <var name="b" id="775922249627450267" />
       </scope>
-      <scope id="775922249627450267" at="223,0,231,0" />
+      <scope id="775922249627450267" at="219,0,227,0" />
     </file>
   </root>
   <root nodeRef="r:c796c4a3-2b8c-48ab-8dfa-f48c064ae694(EnhancedCallGraph.structure)/775922249629819988">
