@@ -15,6 +15,7 @@
   <registry>
     <language id="8fec4b91-acc1-4b63-a904-50ec00d1159a" name="EnhancedCallGraph">
       <concept id="3493293630460790390" name="EnhancedCallGraph.structure.EnhancedCallGraph" flags="ng" index="13IEDU">
+        <reference id="618433260077392527" name="entryMethod" index="8DzX9" />
         <child id="3493293630460790585" name="methods" index="13IEGP" />
       </concept>
       <concept id="3493293630460790574" name="EnhancedCallGraph.structure.Method" flags="ng" index="13IEGy">
@@ -49,6 +50,7 @@
       <concept id="775922249627450236" name="EnhancedCallGraph.structure.Loop" flags="ng" index="34AhDg">
         <child id="775922249627450240" name="backwardJumps" index="34AhEG" />
       </concept>
+      <concept id="775922249627450230" name="EnhancedCallGraph.structure.IfStatement" flags="ng" index="34AhDq" />
       <concept id="775922249627450242" name="EnhancedCallGraph.structure.ControlStructure" flags="ng" index="34AhEI">
         <property id="775922249627450245" name="condition" index="34AhED" />
       </concept>
@@ -201,6 +203,7 @@
     <node concept="3Tm1VV" id="F4CiNeuDmp" role="1B3o_S" />
   </node>
   <node concept="13IEDU" id="yl7so0sx1Y">
+    <ref role="8DzX9" node="yl7so0sK_6" resolve="m1" />
     <node concept="13IEGy" id="yl7so0sx1Z" role="13IEGP">
       <property role="TrG5h" value="m1" />
       <property role="13IIw_" value="fdsfs" />
@@ -210,7 +213,10 @@
         <ref role="34CTi2" node="yl7so0sCqD" resolve="b1" />
         <node concept="34AhD3" id="yl7so0sJ1$" role="34AhDa">
           <ref role="8Yaon" node="yl7so0sCqD" resolve="b1" />
-          <ref role="8KyL5" node="yl7so0sK_6" resolve="m2" />
+          <ref role="8KyL5" node="yl7so0sK_6" resolve="m1" />
+        </node>
+        <node concept="34AhD3" id="yl7so0BcUc" role="34AhDa">
+          <ref role="8Yaon" node="yl7so0sCqD" resolve="b1" />
         </node>
         <node concept="13IEGW" id="yl7so0sCqD" role="13Ib0g">
           <property role="TrG5h" value="b1" />
@@ -219,12 +225,12 @@
       </node>
     </node>
     <node concept="13IEGy" id="yl7so0sK_6" role="13IEGP">
-      <property role="TrG5h" value="m2" />
+      <property role="TrG5h" value="m1" />
       <property role="13IIw_" value="ere" />
       <property role="13IIwX" value="erte" />
       <property role="34AhEd" value="trete" />
       <node concept="13IEGZ" id="yl7so0sK_7" role="13Ix8Y">
-        <ref role="34CTi2" node="yl7so0sQN8" resolve="b1" />
+        <ref role="34CTi2" node="yl7so0tqcJ" resolve="b2" />
         <node concept="13IEGW" id="yl7so0sQN8" role="13Ib0g">
           <property role="TrG5h" value="b1" />
           <property role="34AhEw" value="fsf" />
@@ -241,6 +247,9 @@
           <node concept="34AhC5" id="yl7so0uaTh" role="34AhEx">
             <ref role="34ivlz" node="yl7so0sx1Z" resolve="m1" />
           </node>
+          <node concept="34hklS" id="yl7so0HpS_" role="34hCBH">
+            <ref role="34hF11" node="yl7so0sQN8" resolve="b1" />
+          </node>
         </node>
         <node concept="34AhDg" id="yl7so0sWfq" role="34AhDa">
           <property role="34AhED" value="rerer" />
@@ -249,6 +258,13 @@
             <ref role="34hF11" node="yl7so0tqcJ" resolve="b2" />
           </node>
           <node concept="34hklS" id="yl7so0tv3H" role="34AhEG">
+            <ref role="34hF11" node="yl7so0tqcJ" resolve="b2" />
+          </node>
+        </node>
+        <node concept="34AhDq" id="yl7so0Hm_6" role="34AhDa">
+          <property role="34AhED" value="fds" />
+          <ref role="8Yaon" node="yl7so0tqcJ" resolve="b2" />
+          <node concept="34hklS" id="yl7so0HoUo" role="34AhD1">
             <ref role="34hF11" node="yl7so0sQN8" resolve="b1" />
           </node>
         </node>

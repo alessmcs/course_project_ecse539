@@ -23,8 +23,8 @@
     <file name="ConceptPresentationAspectImpl.java">
       <node id="3493293630460790390" at="17,0,18,0" concept="1" trace="props_EnhancedCallGraph" />
       <node id="3493293630460790390" at="67,46,68,76" concept="3" />
-      <node id="3493293630460790390" at="68,76,69,51" concept="0" />
-      <node id="3493293630460790390" at="69,51,70,49" concept="0" />
+      <node id="3493293630460790390" at="68,76,69,144" concept="0" />
+      <node id="3493293630460790390" at="69,144,70,49" concept="0" />
       <node id="3493293630460790390" at="71,9,72,39" concept="4" />
       <node id="3493293630460790390" at="66,51,71,9" concept="2" />
       <scope id="3493293630460790390" at="67,46,70,49">
@@ -43,8 +43,8 @@
       <node id="3493293630460790390" at="138,169,139,33" concept="0" />
       <node id="3493293630460790390" at="139,33,140,104" concept="0" />
       <node id="3493293630460790390" at="140,104,141,17" concept="0" />
-      <node id="618433260077392527" at="141,17,142,172" concept="0" />
-      <node id="3493293630460790585" at="142,172,143,200" concept="0" />
+      <node id="618433260077392527" at="141,17,142,173" concept="0" />
+      <node id="3493293630460790585" at="142,173,143,200" concept="0" />
       <node id="3493293630460790390" at="143,200,144,22" concept="4" />
       <node id="3493293630460790390" at="137,0,146,0" concept="7" trace="createDescriptorForEnhancedCallGraph#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="3493293630460790390" at="61,51,62,42" />
