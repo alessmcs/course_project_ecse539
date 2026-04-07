@@ -69,7 +69,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.addEditorCell(createCollection_2());
     editorCell.addEditorCell(createCollection_3());
     editorCell.addEditorCell(createCollection_4());
-    editorCell.addEditorCell(createConstant_5());
+    editorCell.addEditorCell(createConstant_7());
     return editorCell;
   }
   private EditorCell createConstant_0() {
@@ -176,8 +176,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
   private EditorCell createRefNodeList_0() {
     AbstractCellListHandler handler = new invocationsListHandler_kw2rpr_b3a(myNode, getEditorContext());
-    EditorCell_Collection editorCell = handler.createCells(new CellLayout_Horizontal(), false);
+    EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_invocations");
+    editorCell.setFoldable(true);
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
   }
@@ -211,7 +212,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(invocationsListHandler_kw2rpr_b3a.this.getNode(), LINKS.invocations$KHap));
       try {
         EditorCell emptyCell = null;
-        emptyCell = super.createEmptyCell();
+        emptyCell = createConstant_4();
         installElementCellActions(null, emptyCell, true);
         setCellContext(emptyCell);
         return emptyCell;
@@ -247,6 +248,12 @@ import org.jetbrains.mps.openapi.language.SConcept;
         }
       }
     }
+    private EditorCell createConstant_4() {
+      EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "none");
+      editorCell.setCellId("Constant_kw2rpr_a1d0");
+      editorCell.setDefaultText("");
+      return editorCell;
+    }
   }
   private EditorCell createCollection_4() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
@@ -254,11 +261,11 @@ import org.jetbrains.mps.openapi.language.SConcept;
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createConstant_4());
+    editorCell.addEditorCell(createConstant_5());
     editorCell.addEditorCell(createRefNodeList_1());
     return editorCell;
   }
-  private EditorCell createConstant_4() {
+  private EditorCell createConstant_5() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "successors:");
     editorCell.setCellId("Constant_kw2rpr_a4a");
     Style style = new StyleImpl();
@@ -276,6 +283,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
     editorCell.getStyle().putAll(style);
+    editorCell.setFoldable(true);
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
   }
@@ -309,7 +317,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(successorsListHandler_kw2rpr_b4a.this.getNode(), LINKS.successors$7u8o));
       try {
         EditorCell emptyCell = null;
-        emptyCell = super.createEmptyCell();
+        emptyCell = createConstant_6();
         installElementCellActions(null, emptyCell, true);
         setCellContext(emptyCell);
         return emptyCell;
@@ -345,8 +353,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
         }
       }
     }
+    private EditorCell createConstant_6() {
+      EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "none");
+      editorCell.setCellId("Constant_kw2rpr_a1e0");
+      editorCell.setDefaultText("");
+      return editorCell;
+    }
   }
-  private EditorCell createConstant_5() {
+  private EditorCell createConstant_7() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "}");
     editorCell.setCellId("Constant_kw2rpr_f0");
     editorCell.setDefaultText("");

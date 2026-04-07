@@ -110,7 +110,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:c796c4a3-2b8c-48ab-8dfa-f48c064ae694(EnhancedCallGraph.structure)/775922249629819988");
     b.version(3);
-    b.property("targetID", 0xac4a12cce81f0c5L).type(PrimitiveTypeId.STRING).origin("775922249629823173").done();
     b.associate("target", 0xac4a12cce82116dL).target(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c00730L).optional(false).origin("775922249629831533").done();
     return b.create();
   }
@@ -139,8 +138,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, true);
     b.origin("r:c796c4a3-2b8c-48ab-8dfa-f48c064ae694(EnhancedCallGraph.structure)/3493293630460790390");
     b.version(3);
-    b.associate("entryMethod", 0x8951dc60033228fL).target(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c0072eL).optional(false).origin("618433260077392527").done();
-    b.aggregate("methods", 0x307aac0c73c00739L).target(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c0072eL).optional(false).ordered(true).multiple(true).origin("3493293630460790585").done();
+    b.associate("entryMethod", 0x8951dc60033228fL).target(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c0072eL).optional(true).origin("618433260077392527").done();
+    b.aggregate("methods", 0x307aac0c73c00739L).target(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c0072eL).optional(true).ordered(true).multiple(true).origin("3493293630460790585").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForIfStatement() {

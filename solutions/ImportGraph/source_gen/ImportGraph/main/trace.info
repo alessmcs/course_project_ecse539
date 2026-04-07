@@ -1,44 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
-  <root nodeRef="r:19e120e2-516c-4719-a965-e2ffc19be2e5(ImportGraph.main)/775922249627465368">
-    <file name="JSONtoECGImporter.java">
-      <node id="775922249627768400" at="8,42,9,19" concept="0" />
-      <node id="775922249627789016" at="9,19,10,23" concept="0" />
-      <node id="775922249627802367" at="10,23,11,0" concept="1" />
-      <node id="775922249627807698" at="11,0,12,74" concept="0" />
-      <node id="775922249627924926" at="12,74,13,62" concept="0" />
-      <node id="775922249628001487" at="13,62,14,0" concept="1" />
-      <node id="775922249628002682" at="14,0,15,0" concept="1" />
-      <node id="775922249627465474" at="8,0,17,0" concept="2" trace="main#([Ljava/lang/String;)V" />
-      <scope id="775922249627465477" at="8,42,15,0">
-        <var name="block" id="775922249627789017" />
-        <var name="blockConcept" id="775922249627924927" />
-        <var name="g" id="775922249627768401" />
-        <var name="graphConcept" id="775922249627807699" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:19e120e2-516c-4719-a965-e2ffc19be2e5(ImportGraph.main)/618433260086206649">
+    <file name="GraphImporter.java">
+      <node id="1627148380354286454" at="26,9,27,74" concept="5" />
+      <node id="1627148380354106150" at="27,74,28,31" concept="5" />
+      <node id="1627148380354109246" at="28,31,29,57" concept="5" />
+      <node id="1627148380354364185" at="29,57,30,0" concept="8" />
+      <node id="1627148380354364659" at="30,0,31,29" concept="5" />
+      <node id="1627148380354367972" at="31,29,32,69" concept="5" />
+      <node id="1627148380354443029" at="32,69,33,0" concept="8" />
+      <node id="1627148380354460423" at="33,0,34,23" concept="5" />
+      <node id="1627148380354508721" at="34,23,35,0" concept="8" />
+      <node id="1627148380354847691" at="37,70,38,21" concept="1" />
+      <node id="1627148380354858190" at="38,21,39,16" concept="0" />
+      <node id="1627148380354288291" at="41,7,42,0" concept="8" />
+      <node id="1627148380354923190" at="43,69,44,32" concept="1" />
+      <node id="1627148380354998155" at="45,7,46,0" concept="8" />
+      <node id="1627148380355106334" at="46,0,47,53" concept="5" />
+      <node id="1627148380355131342" at="47,53,48,0" concept="8" />
+      <node id="1627148380355136929" at="48,0,49,61" concept="5" />
+      <node id="1627148380355163432" at="49,61,50,0" concept="8" />
+      <node id="1627148380355165405" at="50,0,51,38" concept="7" />
+      <node id="1627148380355238767" at="52,52,53,56" concept="5" />
+      <node id="1627148380355270632" at="53,56,54,0" concept="8" />
+      <node id="1627148380356678430" at="54,0,55,48" concept="5" />
+      <node id="1627148380355421219" at="55,48,56,62" concept="5" />
+      <node id="1627148380355289786" at="56,62,57,66" concept="5" />
+      <node id="1627148380355461767" at="57,66,58,62" concept="5" />
+      <node id="1627148380355515670" at="58,62,59,60" concept="5" />
+      <node id="1627148380355620912" at="59,60,60,56" concept="5" />
+      <node id="1627148380355669941" at="60,56,61,0" concept="8" />
+      <node id="1627148380355678583" at="61,0,62,192" concept="5" />
+      <node id="1627148380356722953" at="62,192,63,42" concept="1" />
+      <node id="1627148380356028306" at="63,42,64,54" concept="1" />
+      <node id="1627148380356083650" at="64,54,65,58" concept="1" />
+      <node id="1627148380356116894" at="65,58,66,54" concept="1" />
+      <node id="1627148380356151376" at="66,54,67,48" concept="1" />
+      <node id="1627148380356179941" at="67,48,68,48" concept="1" />
+      <node id="1627148380356789338" at="68,48,69,0" concept="8" />
+      <node id="1627148380356799025" at="69,0,70,45" concept="1" />
+      <node id="1627148380356964792" at="70,45,71,51" concept="1" />
+      <node id="1627148380356829762" at="71,51,72,0" concept="8" />
+      <node id="1627148380356460079" at="73,7,74,0" concept="8" />
+      <node id="1627148380356468736" at="74,0,75,35" concept="7" />
+      <node id="1627148380356558149" at="75,35,76,66" concept="5" />
+      <node id="1627148380356617831" at="76,66,77,48" concept="5" />
+      <node id="1627148380357025961" at="77,48,78,0" concept="8" />
+      <node id="1627148380356784483" at="78,0,79,0" concept="8" />
+      <node id="1627148380354417472" at="80,27,81,26" concept="1" />
+      <node id="1627148380356010359" at="87,41,88,35" concept="1" />
+      <node id="1627148380356446267" at="88,35,89,51" concept="7" />
+      <node id="1627148380356018101" at="89,51,90,15" concept="6" />
+      <node id="1627148380356910482" at="97,41,98,34" concept="1" />
+      <node id="1627148380356922775" at="98,34,99,15" concept="6" />
+      <node id="1627148380357173743" at="104,49,105,21" concept="5" />
+      <node id="1627148380357191331" at="106,45,107,71" concept="1" />
+      <node id="1627148380357220504" at="107,71,108,0" concept="8" />
+      <node id="1627148380357257892" at="109,68,110,19" concept="1" />
+      <node id="1627148380357265917" at="110,19,111,14" concept="0" />
+      <node id="1627148380357178767" at="112,7,113,0" concept="8" />
+      <node id="1627148380357284570" at="114,24,115,57" concept="11" />
+      <node id="1627148380357314083" at="116,7,117,44" concept="1" />
+      <node id="1627148380357334293" at="117,44,118,0" concept="8" />
+      <node id="1627148380357339506" at="118,0,119,31" concept="5" />
+      <node id="1627148380357349376" at="119,31,120,0" concept="8" />
+      <node id="1627148380358356701" at="120,0,121,20" concept="6" />
+      <node id="1627148380358363799" at="122,5,123,16" concept="6" />
+      <node id="1627148380357663950" at="126,47,127,188" concept="5" />
+      <node id="1627148380357675917" at="127,188,128,75" concept="1" />
+      <node id="1627148380357692145" at="128,75,129,103" concept="1" />
+      <node id="618433260086206649" at="136,0,137,0" concept="9" trace="name$MnvL" />
+      <node id="618433260086206649" at="140,0,141,0" concept="9" trace="methods$l8cE" />
+      <node id="1627148380354426696" at="132,0,134,0" concept="10" trace="main#([Ljava/lang/String;)V" />
+      <node id="1627148380354887204" at="42,0,45,7" concept="3" />
+      <node id="1627148380357270532" at="113,0,116,7" concept="4" />
+      <node id="1627148380354803793" at="36,47,40,9" concept="4" />
+      <node id="1627148380356888821" at="96,74,100,7" concept="4" />
+      <node id="1627148380357222699" at="108,0,112,7" concept="4" />
+      <node id="1627148380355991528" at="86,46,91,7" concept="4" />
+      <node id="1627148380357631011" at="126,0,131,0" concept="10" trace="testAddMethod#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1627148380354790356" at="35,0,41,7" concept="3" />
+      <node id="1627148380356869308" at="95,76,101,5" concept="3" />
+      <node id="1627148380355985866" at="85,74,92,5" concept="3" />
+      <node id="1627148380356851375" at="95,0,103,0" concept="10" trace="addChild#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1627148380355920353" at="85,0,94,0" concept="10" trace="setProp#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="1627148380357178766" at="105,21,122,5" concept="3" />
+      <node id="1627148380357161416" at="104,0,125,0" concept="10" trace="testFindECG#(Lorg/jetbrains/mps/openapi/model/SModel;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1627148380355202773" at="51,38,73,7" concept="2" />
+      <node id="1627148380353950874" at="25,47,82,5" concept="12" />
+      <node id="618433260086297595" at="25,0,84,0" concept="10" trace="importJSON#(Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="1627148380354426699" at="132,42,132,42" />
+      <scope id="1627148380354887210" at="43,69,44,32" />
+      <scope id="1627148380353950908" at="80,27,81,26" />
+      <scope id="1627148380357270534" at="114,24,115,57" />
+      <scope id="1627148380354803795" at="37,70,39,16" />
+      <scope id="1627148380353950905" at="80,5,82,5">
+        <var name="e" id="1627148380353950906" />
       </scope>
-      <scope id="775922249627465474" at="8,0,17,0">
-        <var name="args" id="775922249627508310" />
+      <scope id="1627148380356888823" at="97,41,99,15" />
+      <scope id="1627148380357222701" at="109,68,111,14" />
+      <scope id="1627148380354426696" at="132,0,134,0">
+        <var name="args" id="1627148380354429099" />
       </scope>
-      <unit id="775922249627465368" at="7,0,18,0" name="ImportGraph.main.JSONtoECGImporter" />
-    </file>
-  </root>
-  <root nodeRef="r:19e120e2-516c-4719-a965-e2ffc19be2e5(ImportGraph.main)/775922249629341080">
-    <file name="testImport.java">
-      <node id="775922249629405489" at="7,59,8,72" concept="0" />
-      <node id="775922249629603846" at="8,72,9,0" concept="1" />
-      <node id="775922249629585337" at="9,0,10,0" concept="1" />
-      <node id="775922249629507615" at="10,0,11,0" concept="1" />
-      <node id="775922249629366238" at="7,0,13,0" concept="2" trace="main#([Ljava/lang/String;)V" />
-      <scope id="775922249629366241" at="7,59,11,0">
-        <var name="path" id="775922249629405490" />
+      <scope id="1627148380354887204" at="42,0,45,7">
+        <var name="method" id="1627148380354887206" />
       </scope>
-      <scope id="775922249629366238" at="7,0,13,0">
-        <var name="args" id="775922249629368656" />
+      <scope id="1627148380355991530" at="87,41,90,15" />
+      <scope id="1627148380357631014" at="126,47,129,103">
+        <var name="testMethod" id="1627148380357663953" />
       </scope>
-      <unit id="775922249629341080" at="6,0,14,0" name="ImportGraph.main.testImport" />
+      <scope id="1627148380354790358" at="36,47,40,9" />
+      <scope id="1627148380356869311" at="96,74,100,7" />
+      <scope id="1627148380355985869" at="86,46,91,7" />
+      <scope id="1627148380357631011" at="126,0,131,0">
+        <var name="ecg" id="1627148380357638607" />
+      </scope>
+      <scope id="1627148380354790356" at="35,0,41,7">
+        <var name="root" id="1627148380354790359" />
+      </scope>
+      <scope id="1627148380356851378" at="95,76,101,5" />
+      <scope id="1627148380356869308" at="95,76,101,5">
+        <var name="l" id="1627148380356869309" />
+      </scope>
+      <scope id="1627148380355920356" at="85,74,92,5" />
+      <scope id="1627148380355985866" at="85,74,92,5">
+        <var name="p" id="1627148380355985867" />
+      </scope>
+      <scope id="1627148380356851375" at="95,0,103,0">
+        <var name="child" id="1627148380356865714" />
+        <var name="parent" id="1627148380356858242" />
+        <var name="roleName" id="1627148380356860263" />
+      </scope>
+      <scope id="1627148380355920353" at="85,0,94,0">
+        <var name="node" id="1627148380355926229" />
+        <var name="propName" id="1627148380355927608" />
+        <var name="value" id="1627148380355934849" />
+      </scope>
+      <scope id="1627148380357178768" at="106,45,121,20">
+        <var name="theECG" id="1627148380357339507" />
+      </scope>
+      <scope id="1627148380357178766" at="105,21,122,5">
+        <var name="root" id="1627148380357178769" />
+      </scope>
+      <scope id="1627148380357161419" at="104,49,123,16">
+        <var name="ecg" id="1627148380357173744" />
+      </scope>
+      <scope id="1627148380355202775" at="52,52,72,0">
+        <var name="className" id="1627148380355515671" />
+        <var name="isEntry" id="1627148380355620913" />
+        <var name="m" id="1627148380355238768" />
+        <var name="methodName" id="1627148380355421220" />
+        <var name="methodNode" id="1627148380355678584" />
+        <var name="name" id="1627148380356678431" />
+        <var name="returnType" id="1627148380355461768" />
+        <var name="signatureString" id="1627148380355289787" />
+      </scope>
+      <scope id="1627148380357161416" at="104,0,125,0">
+        <var name="model" id="1627148380357168669" />
+      </scope>
+      <scope id="1627148380355202773" at="51,38,73,7">
+        <var name="i" id="1627148380355202776" />
+      </scope>
+      <scope id="1627148380353950875" at="26,9,79,0">
+        <var name="JSONroot" id="1627148380354367973" />
+        <var name="content" id="1627148380354109247" />
+        <var name="ecg" id="1627148380354460426" />
+        <var name="entryNode" id="1627148380356617832" />
+        <var name="entrySig" id="1627148380356558150" />
+        <var name="gson" id="1627148380354364660" />
+        <var name="methodMap" id="1627148380355106340" />
+        <var name="methods" id="1627148380355136930" />
+        <var name="p" id="1627148380354106151" />
+        <var name="path" id="1627148380354286455" />
+      </scope>
+      <scope id="618433260086297598" at="25,47,82,5" />
+      <scope id="618433260086297595" at="25,0,84,0">
+        <var name="model" id="618433260086359924" />
+      </scope>
+      <unit id="618433260086206649" at="135,0,138,0" name="ImportGraph.main.GraphImporter$PROPS" />
+      <unit id="618433260086206649" at="139,0,142,0" name="ImportGraph.main.GraphImporter$LINKS" />
+      <unit id="618433260086206649" at="24,0,143,0" name="ImportGraph.main.GraphImporter" />
     </file>
   </root>
 </debug-info>

@@ -10,14 +10,12 @@ import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import org.jetbrains.mps.openapi.language.SProperty;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 
@@ -27,15 +25,6 @@ public class check_Interaction_NonTypesystemRule extends AbstractNonTypesystemRu
   public void applyRule(final SNode interaction, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     //  No duplicate interactions
     SNode cfg = SNodeOperations.getNodeAncestor(interaction, CONCEPTS.ControlFlowGraph$lf, false, false);
-    for (SNode other : ListSequence.fromList(SLinkOperations.getChildren(cfg, LINKS.interactions$KgkV))) {
-      if (other != interaction && SLinkOperations.getTarget(other, LINKS.originBlock$zItN) == SLinkOperations.getTarget(interaction, LINKS.originBlock$zItN) && SPropertyOperations.getString(other, PROPS.type$CSJA) == SPropertyOperations.getString(interaction, PROPS.type$CSJA)) {
-        {
-          final MessageTarget errorTarget = new NodeMessageTarget();
-          IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(interaction, "Duplicate interaction (originBlock and type)", "r:98ab8d49-e3e8-4572-9bee-cdf8a8c1fa86(EnhancedCallGraph.typesystem)", "618433260084169198", null, errorTarget);
-        }
-      }
-    }
-
     //  Successors of an interaction correspond to originBlock's successors
     for (SNode ref : ListSequence.fromList(SLinkOperations.getChildren(interaction, LINKS.successors$CY8X))) {
       boolean found = false;
@@ -51,8 +40,6 @@ public class check_Interaction_NonTypesystemRule extends AbstractNonTypesystemRu
         }
       }
     }
-
-
 
   }
   public SAbstractConcept getApplicableConcept() {
@@ -70,14 +57,9 @@ public class check_Interaction_NonTypesystemRule extends AbstractNonTypesystemRu
     /*package*/ static final SConcept Interaction$$P = MetaAdapterFactory.getConcept(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0xac4a12cce5dbb67L, "EnhancedCallGraph.structure.Interaction");
   }
 
-  private static final class PROPS {
-    /*package*/ static final SProperty type$CSJA = MetaAdapterFactory.getProperty(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0xac4a12cce5dbb67L, 0xac4a12cce5dbb6bL, "type");
-  }
-
   private static final class LINKS {
-    /*package*/ static final SReferenceLink originBlock$zItN = MetaAdapterFactory.getReferenceLink(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0xac4a12cce5dbb67L, 0x8951dc6006dbbd1L, "originBlock");
-    /*package*/ static final SContainmentLink interactions$KgkV = MetaAdapterFactory.getContainmentLink(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c00733L, 0xac4a12cce5dbb66L, "interactions");
     /*package*/ static final SReferenceLink target$ND_8 = MetaAdapterFactory.getReferenceLink(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0xac4a12cce81e454L, 0xac4a12cce82116dL, "target");
+    /*package*/ static final SReferenceLink originBlock$zItN = MetaAdapterFactory.getReferenceLink(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0xac4a12cce5dbb67L, 0x8951dc6006dbbd1L, "originBlock");
     /*package*/ static final SContainmentLink successors$7u8o = MetaAdapterFactory.getContainmentLink(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c00730L, 0xac4a12cce8228c1L, "successors");
     /*package*/ static final SContainmentLink successors$CY8X = MetaAdapterFactory.getContainmentLink(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0xac4a12cce5dbb67L, 0xac4a12cce5dbb6dL, "successors");
   }

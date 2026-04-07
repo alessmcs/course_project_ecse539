@@ -8,7 +8,7 @@
   <facets>
     <facet type="java" compile="mps" classes="mps" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
-      <library location="/Users/alessandramancas/Downloads/gson-main/gson/target/gson-2.13.3-SNAPSHOT.jar" />
+      <library location="/Users/alessandramancas/Downloads/gson-2.13.2.jar" />
     </facet>
   </facets>
   <dependencies>
@@ -16,6 +16,8 @@
     <dependency reexport="true">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="true">b387285c-3448-452c-b3bb-a3f8de8eaf08(JDK-tools)</dependency>
     <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="true">0daa541f-ff0d-45e5-b308-dea7a9ccb64d(GSONSolution)</dependency>
+    <dependency reexport="false">b00f36f0-49b7-456c-8405-740447ebb192(MPS.IDEA.Modules)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:8fec4b91-acc1-4b63-a904-50ec00d1159a:EnhancedCallGraph" version="0" />
@@ -30,10 +32,12 @@
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
     <module reference="8fec4b91-acc1-4b63-a904-50ec00d1159a(EnhancedCallGraph)" version="0" />
+    <module reference="0daa541f-ff0d-45e5-b308-dea7a9ccb64d(GSONSolution)" version="0" />
     <module reference="78d1f4fe-6095-4593-9a90-1d279d540332(ImportGraph)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="b387285c-3448-452c-b3bb-a3f8de8eaf08(JDK-tools)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
+    <module reference="b00f36f0-49b7-456c-8405-740447ebb192(MPS.IDEA.Modules)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
   </dependencyVersions>

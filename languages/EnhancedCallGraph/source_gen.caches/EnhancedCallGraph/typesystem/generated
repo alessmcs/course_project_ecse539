@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="78gzw5nh5y9v5rhpk54uz4o17fi7w9f">
-  <files names="TypesystemDescriptor.java:check_Block_NonTypesystemRule.java:check_ControlFlowGraph_NonTypesystemRule.java:check_Interaction_NonTypesystemRule.java:check_Loop_NonTypesystemRule.java:check_Method_NonTypesystemRule.java" />
+<product version="3" modelHash="b025oczxex5cmsnv5bu2guo1orycypc">
+  <files names="TypesystemDescriptor.java:check_Block_NonTypesystemRule.java:check_ControlFlowGraph_NonTypesystemRule.java:check_EnhancedCallGraph_NonTypesystemRule.java:check_Interaction_NonTypesystemRule.java:check_Loop_NonTypesystemRule.java:check_MethodCall_NonTypesystemRule.java:check_Method_NonTypesystemRule.java" />
 </product>
 

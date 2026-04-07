@@ -66,7 +66,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.EnhancedCallGraph:
         if (props_EnhancedCallGraph == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByReference(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c00676L, 0x8951dc60033228fL, "entryMethod", "", "");
+          cpb.rawPresentation("EnhancedCallGraph");
           props_EnhancedCallGraph = cpb.create();
         }
         return props_EnhancedCallGraph;
