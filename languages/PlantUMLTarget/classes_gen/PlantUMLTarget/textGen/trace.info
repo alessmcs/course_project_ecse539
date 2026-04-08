@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="56,0,59,0" name="PlantUMLTarget.textGen.TextGenAspectDescriptor$CONCEPTS" />
+      <unit at="16,0,60,0" name="PlantUMLTarget.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:6dd943f9-d55c-46a8-970a-68d44b991a11(PlantUMLTarget.textGen)/4392641242070788622">
+    <file name="AltFragment_TextGen.java">
+      <node id="4392641242070788622" at="17,54,18,55" concept="5" />
+      <node id="4392641242070788678" at="18,55,19,22" concept="1" />
+      <node id="4392641242070788846" at="19,22,20,91" concept="1" />
+      <node id="4392641242070790734" at="20,91,21,21" concept="1" />
+      <node id="4392641242070791203" at="22,97,23,27" concept="1" />
+      <node id="4392641242070793307" at="24,5,25,21" concept="1" />
+      <node id="4392641242070793711" at="25,21,26,25" concept="1" />
+      <node id="4392641242070794070" at="27,97,28,27" concept="1" />
+      <node id="4392641242070796151" at="29,5,30,21" concept="1" />
+      <node id="4392641242070796354" at="30,21,31,22" concept="1" />
+      <node id="4392641242070788622" at="35,0,36,0" concept="8" trace="condition$IfAZ" />
+      <node id="4392641242070788622" at="39,0,40,0" concept="8" trace="thenLines$Il0m" />
+      <node id="4392641242070788622" at="40,0,41,0" concept="8" trace="elseLines$_aAd" />
+      <node id="4392641242070791203" at="21,21,24,5" concept="2" />
+      <node id="4392641242070794070" at="26,25,29,5" concept="2" />
+      <node id="4392641242070788622" at="16,0,33,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4392641242070791203" at="22,97,23,27" />
+      <scope id="4392641242070794070" at="27,97,28,27" />
+      <scope id="4392641242070791203" at="21,21,24,5">
+        <var name="item" id="4392641242070791203" />
+      </scope>
+      <scope id="4392641242070794070" at="26,25,29,5">
+        <var name="item" id="4392641242070794070" />
+      </scope>
+      <scope id="4392641242070788622" at="17,54,31,22">
+        <var name="tgs" id="4392641242070788622" />
+      </scope>
+      <scope id="4392641242070788622" at="16,0,33,0">
+        <var name="ctx" id="4392641242070788622" />
+      </scope>
+      <unit id="4392641242070788622" at="34,0,37,0" name="PlantUMLTarget.textGen.AltFragment_TextGen$PROPS" />
+      <unit id="4392641242070788622" at="38,0,42,0" name="PlantUMLTarget.textGen.AltFragment_TextGen$LINKS" />
+      <unit id="4392641242070788622" at="15,0,43,0" name="PlantUMLTarget.textGen.AltFragment_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4392641242070788622" at="26,45,27,41" concept="6" />
+      <scope id="4392641242070788622" at="26,45,27,41" />
+    </file>
+  </root>
+  <root nodeRef="r:6dd943f9-d55c-46a8-970a-68d44b991a11(PlantUMLTarget.textGen)/6070442095269644067">
+    <file name="MessageLine_TextGen.java">
+      <node id="6070442095269644067" at="14,54,15,55" concept="5" />
+      <node id="6070442095269666206" at="15,55,16,86" concept="1" />
+      <node id="6070442095269677555" at="16,86,17,23" concept="1" />
+      <node id="6070442095269677847" at="17,23,18,84" concept="1" />
+      <node id="6070442095269679432" at="18,84,19,22" concept="1" />
+      <node id="6070442095269679702" at="19,22,20,87" concept="1" />
+      <node id="6070442095271906236" at="20,87,21,21" concept="1" />
+      <node id="6070442095269644067" at="25,0,26,0" concept="8" trace="from$ZfFZ" />
+      <node id="6070442095269644067" at="26,0,27,0" concept="8" trace="to$Zgp2" />
+      <node id="6070442095269644067" at="27,0,28,0" concept="8" trace="label$ZgC3" />
+      <node id="6070442095269644067" at="13,0,23,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6070442095269644067" at="14,54,21,21">
+        <var name="tgs" id="6070442095269644067" />
+      </scope>
+      <scope id="6070442095269644067" at="13,0,23,0">
+        <var name="ctx" id="6070442095269644067" />
+      </scope>
+      <unit id="6070442095269644067" at="24,0,29,0" name="PlantUMLTarget.textGen.MessageLine_TextGen$PROPS" />
+      <unit id="6070442095269644067" at="12,0,30,0" name="PlantUMLTarget.textGen.MessageLine_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="6070442095269644067" at="30,45,31,41" concept="6" />
+      <scope id="6070442095269644067" at="30,45,31,41" />
+    </file>
+  </root>
+  <root nodeRef="r:6dd943f9-d55c-46a8-970a-68d44b991a11(PlantUMLTarget.textGen)/6070442095269680845">
+    <file name="PUMLFile_TextGen.java">
+      <node id="6070442095269680845" at="15,54,16,55" concept="5" />
+      <node id="6070442095269691728" at="16,55,17,30" concept="1" />
+      <node id="6070442095269810090" at="18,93,19,27" concept="1" />
+      <node id="6070442095269718562" at="20,5,21,28" concept="1" />
+      <node id="6070442095269680845" at="25,0,26,0" concept="8" trace="lines$Zeio" />
+      <node id="6070442095269810090" at="17,30,20,5" concept="2" />
+      <node id="6070442095269680845" at="14,0,23,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6070442095269810090" at="18,93,19,27" />
+      <scope id="6070442095269810090" at="17,30,20,5">
+        <var name="item" id="6070442095269810090" />
+      </scope>
+      <scope id="6070442095269680845" at="15,54,21,28">
+        <var name="tgs" id="6070442095269680845" />
+      </scope>
+      <scope id="6070442095269680845" at="14,0,23,0">
+        <var name="ctx" id="6070442095269680845" />
+      </scope>
+      <unit id="6070442095269680845" at="24,0,27,0" name="PlantUMLTarget.textGen.PUMLFile_TextGen$LINKS" />
+      <unit id="6070442095269680845" at="13,0,28,0" name="PlantUMLTarget.textGen.PUMLFile_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="6070442095269680845" at="32,42,33,38" concept="6" />
+      <node id="6070442095269680845" at="41,59,42,50" concept="5" />
+      <node id="6070442095269680845" at="42,50,43,53" concept="5" />
+      <node id="6070442095269680845" at="43,53,44,84" concept="1" />
+      <node id="6070442095269680845" at="44,84,45,17" concept="0" />
+      <node id="6070442095269720221" at="49,58,50,22" concept="6" />
+      <node id="6070442095269691470" at="52,63,53,18" concept="6" />
+      <node id="6070442095269680845" at="49,0,52,0" concept="9" trace="getFileName_PUMLFile#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="6070442095269680845" at="52,0,55,0" concept="9" trace="getFileExtension_PUMLFile#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="6070442095269680845" at="40,58,46,7" concept="3" />
+      <scope id="6070442095269680845" at="32,42,33,38" />
+      <scope id="6070442095269680845" at="49,58,50,22" />
+      <scope id="6070442095269680845" at="52,63,53,18" />
+      <scope id="6070442095269680845" at="49,0,52,0">
+        <var name="node" id="6070442095269680845" />
+      </scope>
+      <scope id="6070442095269680845" at="52,0,55,0">
+        <var name="node" id="6070442095269680845" />
+      </scope>
+      <scope id="6070442095269680845" at="41,59,45,17">
+        <var name="ext" id="6070442095269680845" />
+        <var name="fname" id="6070442095269680845" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:6dd943f9-d55c-46a8-970a-68d44b991a11(PlantUMLTarget.textGen)/6070442095271561369">
+    <file name="LoopFragment_TextGen.java">
+      <node id="6070442095271561369" at="17,54,18,55" concept="5" />
+      <node id="6070442095271561482" at="18,55,19,25" concept="1" />
+      <node id="6070442095271562199" at="19,25,20,91" concept="1" />
+      <node id="6070442095271564158" at="20,91,21,23" concept="1" />
+      <node id="6070442095271564278" at="21,23,22,0" concept="7" />
+      <node id="6070442095271564547" at="23,93,24,27" concept="1" />
+      <node id="6070442095271566131" at="25,5,26,0" concept="7" />
+      <node id="6070442095271566251" at="26,0,27,24" concept="1" />
+      <node id="6070442095271906626" at="27,24,28,21" concept="1" />
+      <node id="6070442095271561369" at="32,0,33,0" concept="8" trace="condition$VscZ" />
+      <node id="6070442095271561369" at="36,0,37,0" concept="8" trace="lines$VxAm" />
+      <node id="6070442095271564547" at="22,0,25,5" concept="2" />
+      <node id="6070442095271561369" at="16,0,30,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6070442095271564547" at="23,93,24,27" />
+      <scope id="6070442095271564547" at="22,0,25,5">
+        <var name="item" id="6070442095271564547" />
+      </scope>
+      <scope id="6070442095271561369" at="17,54,28,21">
+        <var name="tgs" id="6070442095271561369" />
+      </scope>
+      <scope id="6070442095271561369" at="16,0,30,0">
+        <var name="ctx" id="6070442095271561369" />
+      </scope>
+      <unit id="6070442095271561369" at="31,0,34,0" name="PlantUMLTarget.textGen.LoopFragment_TextGen$PROPS" />
+      <unit id="6070442095271561369" at="35,0,38,0" name="PlantUMLTarget.textGen.LoopFragment_TextGen$LINKS" />
+      <unit id="6070442095271561369" at="15,0,39,0" name="PlantUMLTarget.textGen.LoopFragment_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="6070442095271561369" at="28,46,29,42" concept="6" />
+      <scope id="6070442095271561369" at="28,46,29,42" />
+    </file>
+  </root>
+</debug-info>
+

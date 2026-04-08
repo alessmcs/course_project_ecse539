@@ -9,8 +9,10 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.module.SModuleReference;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import EnhancedCallGraph.generator.templates.QueriesGenerated;
+import jetbrains.mps.generator.runtime.TemplateModuleBase;
 import java.util.Collection;
 import org.jetbrains.mps.openapi.language.SLanguage;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.Arrays;
 
 public class Generator extends TemplateModuleInterpreted2 {
@@ -30,10 +32,15 @@ public class Generator extends TemplateModuleInterpreted2 {
     models.templates("r:123f89a9-2679-4775-93ac-01685ddadf12", QueriesGenerated.class);
   }
 
+  @Override
+  protected void fillReferencedGenerators(TemplateModuleBase.ReferencedGenerators referencedGenerators) {
+    referencedGenerators.employed("e105962b-6574-40ff-a0b7-990d91af899d(PlantUMLTarget.generator)");
+  }
 
   @Override
   public Collection<SLanguage> getTargetLanguages() {
-    SLanguage[] rv = new SLanguage[0];
+    SLanguage[] rv = new SLanguage[1];
+    rv[0] = MetaAdapterFactory.getLanguage(0x3946306a58ce49edL, 0x90e5f6877939cd31L, "PlantUMLTarget");
     return Arrays.asList(rv);
   }
 

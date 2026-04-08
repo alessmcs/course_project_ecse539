@@ -149,6 +149,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0xac4a12cce5dbb82L);
     b.origin("r:c796c4a3-2b8c-48ab-8dfa-f48c064ae694(EnhancedCallGraph.structure)/775922249627450230");
     b.version(3);
+    b.aggregate("thenBlock", 0x15677c0c3771041aL).target(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c00730L).optional(false).ordered(true).multiple(false).origin("1542337789309289498").done();
+    b.aggregate("elseBlock", 0x15677c0c3771041dL).target(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c00730L).optional(true).ordered(true).multiple(false).origin("1542337789309289501").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForInteraction() {

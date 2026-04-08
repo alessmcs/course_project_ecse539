@@ -4,10 +4,141 @@ package EnhancedCallGraph.generator.templates;
 
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.impl.query.QueryProviderBase;
+import jetbrains.mps.generator.template.PropertyMacroContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import EnhancedCallGraph.behavior.Interaction__BehaviorDescriptor;
+import EnhancedCallGraph.behavior.Loop__BehaviorDescriptor;
+import java.util.Map;
+import jetbrains.mps.generator.impl.query.SourceNodesQuery;
+import java.util.HashMap;
+import org.jetbrains.annotations.NotNull;
+import jetbrains.mps.generator.impl.query.QueryKey;
+import java.util.Collection;
+import jetbrains.mps.generator.impl.GenerationFailureException;
+import jetbrains.mps.util.IterableUtil;
+import jetbrains.mps.generator.impl.query.PropertyValueQuery;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SProperty;
+import org.jetbrains.annotations.Nullable;
+import org.jetbrains.mps.openapi.language.SReferenceLink;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 @Generated
 public class QueriesGenerated extends QueryProviderBase {
   public QueriesGenerated() {
     super(1);
+  }
+  public static Object propertyMacro_GetValue_2_0(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SNodeOperations.getNodeAncestor(SLinkOperations.getTarget(_context.getNode(), LINKS.originBlock$zItN), CONCEPTS.Method$iO, false, false), PROPS.className$KVGp);
+  }
+  public static Object propertyMacro_GetValue_2_1(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.targetMethod$BvBI), PROPS.className$KVGp);
+  }
+  public static Object propertyMacro_GetValue_2_2(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.targetMethod$BvBI), PROPS.name$MnvL) + "()";
+  }
+  public static Object propertyMacro_GetValue_2_3(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), PROPS.condition$Dej_);
+  }
+  public static Object propertyMacro_GetValue_2_4(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), PROPS.condition$Dej_);
+  }
+  public static Iterable<SNode> sourceNodesQuery_1_0(final SourceSubstituteMacroNodesContext _context) {
+    return ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), LINKS.entryMethod$61f3), LINKS.cfg$G$Mq), LINKS.interactions$KgkV)).where((it) -> (boolean) Interaction__BehaviorDescriptor.isTopLevel_id1lBv0KRtMBa.invoke(it));
+  }
+  public static Iterable<SNode> sourceNodesQuery_2_0(final SourceSubstituteMacroNodesContext _context) {
+    return (Iterable<SNode>) Loop__BehaviorDescriptor.getNestedInteractions_id1lBv0KRsoSo.invoke(_context.getNode());
+  }
+  private final Map<String, SourceNodesQuery> snsqMethods = new HashMap<String, SourceNodesQuery>();
+  {
+    int i = 0;
+    snsqMethods.put("4392641242070760185", new SNsQ(i++));
+    snsqMethods.put("1542337789309805884", new SNsQ(i++));
+  }
+  @NotNull
+  @Override
+  public SourceNodesQuery getSourceNodesQuery(@NotNull QueryKey identity) {
+    SourceNodesQuery query = identity.forFunctionNode(snsqMethods);
+    return (query != null ? query : super.getSourceNodesQuery(identity));
+  }
+  private static class SNsQ implements SourceNodesQuery {
+    private final int methodKey;
+    public SNsQ(int methodKey) {
+      this.methodKey = methodKey;
+    }
+    @NotNull
+    public Collection<SNode> evaluate(@NotNull SourceSubstituteMacroNodesContext ctx) throws GenerationFailureException {
+      switch (methodKey) {
+        case 0:
+          return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_1_0(ctx));
+        case 1:
+          return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_2_0(ctx));
+        default:
+          throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
+      }
+    }
+  }
+  private final Map<String, PropertyValueQuery> pvqMethods = new HashMap<String, PropertyValueQuery>();
+  {
+    int i = 0;
+    pvqMethods.put("6070442095271998245", new PVQ(i++, MetaAdapterFactory.getProperty(0x3946306a58ce49edL, 0x90e5f6877939cd31L, 0x543e8aec4e2006c5L, 0x543e8aec4e2006c7L, "from"), null));
+    pvqMethods.put("6070442095272007266", new PVQ(i++, MetaAdapterFactory.getProperty(0x3946306a58ce49edL, 0x90e5f6877939cd31L, 0x543e8aec4e2006c5L, 0x543e8aec4e2006caL, "to"), null));
+    pvqMethods.put("6070442095272013197", new PVQ(i++, MetaAdapterFactory.getProperty(0x3946306a58ce49edL, 0x90e5f6877939cd31L, 0x543e8aec4e2006c5L, 0x543e8aec4e2006cbL, "label"), null));
+    pvqMethods.put("4392641242070713700", new PVQ(i++, MetaAdapterFactory.getProperty(0x3946306a58ce49edL, 0x90e5f6877939cd31L, 0x543e8aec4e3d4879L, 0x543e8aec4e3d487bL, "condition"), null));
+    pvqMethods.put("1542337789309278349", new PVQ(i++, MetaAdapterFactory.getProperty(0x3946306a58ce49edL, 0x90e5f6877939cd31L, 0x3cf5cbefbb5c29e1L, 0x3cf5cbefbb5c29e3L, "condition"), null));
+  }
+  @NotNull
+  @Override
+  public PropertyValueQuery getPropertyValueQuery(@NotNull QueryKey identity) {
+    PropertyValueQuery query = identity.forTemplateNode(pvqMethods);
+    return (query != null ? query : super.getPropertyValueQuery(identity));
+  }
+  private static class PVQ extends PropertyValueQuery.Base {
+    private final int methodKey;
+    /*package*/ PVQ(int methodKey, SProperty property, String templateValue) {
+      super(property, templateValue);
+      this.methodKey = methodKey;
+    }
+    @Nullable
+    public Object evaluate(@NotNull PropertyMacroContext ctx) throws GenerationFailureException {
+      switch (methodKey) {
+        case 0:
+          return QueriesGenerated.propertyMacro_GetValue_2_0(ctx);
+        case 1:
+          return QueriesGenerated.propertyMacro_GetValue_2_1(ctx);
+        case 2:
+          return QueriesGenerated.propertyMacro_GetValue_2_2(ctx);
+        case 3:
+          return QueriesGenerated.propertyMacro_GetValue_2_3(ctx);
+        case 4:
+          return QueriesGenerated.propertyMacro_GetValue_2_4(ctx);
+        default:
+          throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
+      }
+    }
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SReferenceLink originBlock$zItN = MetaAdapterFactory.getReferenceLink(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0xac4a12cce5dbb67L, 0x8951dc6006dbbd1L, "originBlock");
+    /*package*/ static final SReferenceLink targetMethod$BvBI = MetaAdapterFactory.getReferenceLink(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0xac4a12cce5dbb6fL, 0x8951dc600573183L, "targetMethod");
+    /*package*/ static final SReferenceLink entryMethod$61f3 = MetaAdapterFactory.getReferenceLink(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c00676L, 0x8951dc60033228fL, "entryMethod");
+    /*package*/ static final SContainmentLink cfg$G$Mq = MetaAdapterFactory.getContainmentLink(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c0072eL, 0x307aac0c73c0be32L, "cfg");
+    /*package*/ static final SContainmentLink interactions$KgkV = MetaAdapterFactory.getContainmentLink(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c00733L, 0xac4a12cce5dbb66L, "interactions");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept Method$iO = MetaAdapterFactory.getConcept(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c0072eL, "EnhancedCallGraph.structure.Method");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty className$KVGp = MetaAdapterFactory.getProperty(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0x307aac0c73c0072eL, 0xac4a12cce5dbba1L, "className");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+    /*package*/ static final SProperty condition$Dej_ = MetaAdapterFactory.getProperty(0x8fec4b91acc14b63L, 0xa90450ec00d1159aL, 0xac4a12cce5dbb82L, 0xac4a12cce5dbb85L, "condition");
   }
 }

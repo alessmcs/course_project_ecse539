@@ -1,8 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
     <file name="QueriesGenerated.java">
-      <unit at="8,0,14,0" name="EnhancedCallGraph.generator.templates.QueriesGenerated" />
+      <unit at="135,0,138,0" name="EnhancedCallGraph.generator.templates.QueriesGenerated$CONCEPTS" />
+      <unit at="139,0,144,0" name="EnhancedCallGraph.generator.templates.QueriesGenerated$PROPS" />
+      <unit at="127,0,134,0" name="EnhancedCallGraph.generator.templates.QueriesGenerated$LINKS" />
+      <unit at="70,0,87,0" name="EnhancedCallGraph.generator.templates.QueriesGenerated$SNsQ" />
+      <unit at="102,0,126,0" name="EnhancedCallGraph.generator.templates.QueriesGenerated$PVQ" />
+      <unit at="32,0,145,0" name="EnhancedCallGraph.generator.templates.QueriesGenerated" />
+    </file>
+  </root>
+  <root nodeRef="r:123f89a9-2679-4775-93ac-01685ddadf12(EnhancedCallGraph.generator.templates@generator)/6070442095269834446">
+    <file name="QueriesGenerated.java">
+      <node id="4392641242070760192" at="52,104,53,294" concept="1" />
+      <node id="4392641242070760185" at="60,14,61,58" concept="0" />
+      <node id="4392641242070760185" at="78,15,79,87" concept="1" />
+      <node id="4392641242070760185" at="52,0,55,0" concept="2" trace="sourceNodesQuery_1_0#(Ljetbrains/mps/generator/template/SourceSubstituteMacroNodesContext;)Ljava/lang/Iterable;" />
+      <scope id="4392641242070760186" at="52,104,53,294" />
+      <scope id="4392641242070760185" at="78,15,79,87" />
+      <scope id="4392641242070760185" at="52,0,55,0">
+        <var name="_context" id="4392641242070760185" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:123f89a9-2679-4775-93ac-01685ddadf12(EnhancedCallGraph.generator.templates@generator)/6070442095271998235">
+    <file name="QueriesGenerated.java">
+      <node id="6070442095271998648" at="37,88,38,201" concept="1" />
+      <node id="6070442095272007349" at="40,88,41,135" concept="1" />
+      <node id="6070442095272013342" at="43,88,44,137" concept="1" />
+      <node id="4392641242070714103" at="46,88,47,83" concept="1" />
+      <node id="1542337789309278752" at="49,88,50,83" concept="1" />
+      <node id="1542337789309805891" at="55,104,56,117" concept="1" />
+      <node id="1542337789309805884" at="61,58,62,58" concept="0" />
+      <node id="1542337789309805884" at="80,15,81,87" concept="1" />
+      <node id="6070442095271998245" at="89,14,90,186" concept="0" />
+      <node id="6070442095272007266" at="90,186,91,184" concept="0" />
+      <node id="6070442095272013197" at="91,184,92,187" concept="0" />
+      <node id="4392641242070713700" at="92,187,93,191" concept="0" />
+      <node id="1542337789309278349" at="93,191,94,191" concept="0" />
+      <node id="6070442095271998245" at="111,15,112,66" concept="1" />
+      <node id="6070442095272007266" at="113,15,114,66" concept="1" />
+      <node id="6070442095272013197" at="115,15,116,66" concept="1" />
+      <node id="4392641242070713700" at="117,15,118,66" concept="1" />
+      <node id="1542337789309278349" at="119,15,120,66" concept="1" />
+      <node id="6070442095271998246" at="37,0,40,0" concept="2" trace="propertyMacro_GetValue_2_0#(Ljetbrains/mps/generator/template/PropertyMacroContext;)Ljava/lang/Object;" />
+      <node id="6070442095272007267" at="40,0,43,0" concept="2" trace="propertyMacro_GetValue_2_1#(Ljetbrains/mps/generator/template/PropertyMacroContext;)Ljava/lang/Object;" />
+      <node id="6070442095272013198" at="43,0,46,0" concept="2" trace="propertyMacro_GetValue_2_2#(Ljetbrains/mps/generator/template/PropertyMacroContext;)Ljava/lang/Object;" />
+      <node id="4392641242070713701" at="46,0,49,0" concept="2" trace="propertyMacro_GetValue_2_3#(Ljetbrains/mps/generator/template/PropertyMacroContext;)Ljava/lang/Object;" />
+      <node id="1542337789309278350" at="49,0,52,0" concept="2" trace="propertyMacro_GetValue_2_4#(Ljetbrains/mps/generator/template/PropertyMacroContext;)Ljava/lang/Object;" />
+      <node id="1542337789309805884" at="55,0,58,0" concept="2" trace="sourceNodesQuery_2_0#(Ljetbrains/mps/generator/template/SourceSubstituteMacroNodesContext;)Ljava/lang/Iterable;" />
+      <scope id="6070442095271998247" at="37,88,38,201" />
+      <scope id="6070442095272007268" at="40,88,41,135" />
+      <scope id="6070442095272013199" at="43,88,44,137" />
+      <scope id="4392641242070713702" at="46,88,47,83" />
+      <scope id="1542337789309278351" at="49,88,50,83" />
+      <scope id="1542337789309805885" at="55,104,56,117" />
+      <scope id="1542337789309805884" at="80,15,81,87" />
+      <scope id="6070442095271998245" at="111,15,112,66" />
+      <scope id="6070442095272007266" at="113,15,114,66" />
+      <scope id="6070442095272013197" at="115,15,116,66" />
+      <scope id="4392641242070713700" at="117,15,118,66" />
+      <scope id="1542337789309278349" at="119,15,120,66" />
+      <scope id="6070442095271998246" at="37,0,40,0">
+        <var name="_context" id="6070442095271998246" />
+      </scope>
+      <scope id="6070442095272007267" at="40,0,43,0">
+        <var name="_context" id="6070442095272007267" />
+      </scope>
+      <scope id="6070442095272013198" at="43,0,46,0">
+        <var name="_context" id="6070442095272013198" />
+      </scope>
+      <scope id="4392641242070713701" at="46,0,49,0">
+        <var name="_context" id="4392641242070713701" />
+      </scope>
+      <scope id="1542337789309278350" at="49,0,52,0">
+        <var name="_context" id="1542337789309278350" />
+      </scope>
+      <scope id="1542337789309805884" at="55,0,58,0">
+        <var name="_context" id="1542337789309805884" />
+      </scope>
     </file>
   </root>
 </debug-info>

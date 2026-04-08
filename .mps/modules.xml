@@ -3,6 +3,8 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/EnhancedCallGraph/EnhancedCallGraph.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/PlantUMLTarget/PlantUMLTarget.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/DummySolution/DummySolution.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/GraphImporter/GraphImporter.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/NewSolution/NewSolution.msd" folder="" />
     </projectModules>
