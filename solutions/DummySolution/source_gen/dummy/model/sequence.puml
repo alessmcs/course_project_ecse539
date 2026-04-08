@@ -1,0 +1,7 @@
+@startuml
+A -> B : doWork()
+ loop i<10 
+ A -> C : helper()
+ end 
+
+@enduml
